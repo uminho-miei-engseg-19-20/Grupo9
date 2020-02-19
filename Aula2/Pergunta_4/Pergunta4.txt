@@ -1,0 +1,12 @@
+A Entidade Certificadora correspodente a Eslovenia para o serviço de emissão de certificados digitais qualificados  para pessoa fisica designado por "Qcert for Esig" em que se pretende verificar se usam tamanho de chaves corretos e algoritmos é a "NLB d.d.".
+
+Esta entidade contem várias CAs:
+
+- AC NLB
+- ACNLB subCA
+- ACNLB RootCA
+
+O algoritmo utilizado pela três é rsaEncryption. Ao usar o RSA signfica que o tamanho da chave tem que ter em conta o problema de factorização de grandes números modulo N. Em que N é o tamanho da chave. Segundo a recomendação do NIST como pode ser visto pela figura seguinte (Inserir Figura) o tamanho minimo recomendado para que seja viavel desde o ano atual ate 2030 é chaves de 2048 bits.
+
+A primeira AC NLB utiliza uma chave de tamanho 2048,isto é, o tamanho minimo recomendado. As outras duas (ACNLB subCA, ACNLB RootCA) utilizam um tamanho de 3072 bits que segundo o NIST são viaveis ate alguns anos depois de 2030.
+

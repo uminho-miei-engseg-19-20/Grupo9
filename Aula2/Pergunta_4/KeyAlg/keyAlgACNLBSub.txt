@@ -1,0 +1,92 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            07:c9:4f:3d:00:00:00:00:59:3e:49:a0
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C = SI, O = NLB d.d., 2.5.4.97 = VATSI-91132550, CN = ACNLB RootCA
+        Validity
+            Not Before: Jun 12 11:22:42 2017 GMT
+            Not After : Apr 12 11:52:42 2036 GMT
+        Subject: C = SI, O = NLB d.d., 2.5.4.97 = VATSI-91132550, CN = ACNLB SubCA
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (3072 bit)
+                Modulus:
+                    00:a4:65:99:06:3c:8b:7f:e4:13:71:fc:1f:b9:fa:
+                    94:64:88:ff:41:1d:6a:fd:32:46:1a:0d:60:90:ce:
+                    93:be:23:3f:d1:33:73:fc:72:c3:e3:99:a2:8a:f9:
+                    4f:1e:51:62:65:c9:4d:39:85:f1:a5:dc:b8:9b:bd:
+                    41:29:3f:85:a8:ea:d6:85:a0:84:a4:0b:ff:c4:56:
+                    d1:1e:20:0e:49:6f:98:e4:9c:7b:f1:d8:7e:be:3b:
+                    30:a2:6b:23:cb:3c:ed:07:be:86:3d:82:28:17:2e:
+                    3c:40:e5:8d:11:4e:37:aa:dc:3f:f6:a2:2a:a3:05:
+                    63:99:0c:9c:dd:69:ef:ae:8f:45:b1:43:79:c8:7c:
+                    bd:c2:da:34:cb:83:78:bb:78:9a:32:fb:b9:14:ec:
+                    00:f2:3f:da:71:c9:76:49:db:90:23:ad:2e:37:0d:
+                    4f:f0:46:db:b6:0d:34:a5:48:44:98:4e:be:06:11:
+                    85:8a:8f:20:04:19:9a:ac:bb:28:cc:86:a3:21:fa:
+                    40:45:ae:71:bf:21:cc:43:18:2b:39:7a:2b:3b:a1:
+                    a4:5a:f8:d6:19:09:d7:f2:b7:13:56:4e:22:b2:04:
+                    c3:37:28:b5:55:e3:9d:c3:7e:7f:81:4d:b9:d4:9f:
+                    94:f2:fa:57:78:ce:10:8b:cb:75:e7:9e:86:43:10:
+                    c1:40:31:03:6c:39:43:c2:92:ec:60:85:48:2e:7a:
+                    49:44:51:f2:2b:e7:37:4a:e2:7f:5c:8d:94:20:73:
+                    7c:c3:55:d3:cb:50:c1:d8:83:35:c1:49:a7:96:bf:
+                    42:35:ff:4e:4b:7e:91:a4:94:7d:a1:d9:a4:d4:9c:
+                    c0:fb:84:e1:0e:48:9a:49:28:c3:e0:a0:f1:4b:9e:
+                    00:a2:72:4d:02:6b:6e:91:91:25:a9:b6:b7:da:a3:
+                    c9:43:0a:f0:33:e8:94:08:d5:88:e8:51:48:ca:58:
+                    36:80:42:8d:c3:b5:7d:9d:ba:18:92:28:67:86:9f:
+                    13:23:ad:f5:71:b3:e8:bb:df:d5
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: critical
+                CA:TRUE, pathlen:0
+            X509v3 Key Usage: critical
+                Certificate Sign, CRL Sign
+            X509v3 Certificate Policies: 
+                Policy: X509v3 Any Policy
+                  CPS: https://www.nlb.si/ac-nlb
+
+            Authority Information Access: 
+                CA Issuers - URI:http://www.nlb.si/images/content/_doc/ACNLB_RootCA.cer
+                OCSP - URI:http://acldap.nlb.si/ocsp
+
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://acldap.nlb.si/crl/acnlb-root.crl
+                  URI:ldap://acldap.nlb.si/cn=ACNLB%20RootCA,organizationIdentifier=VATSI-91132550,o=NLB%20d.d.,c=SI?certificateRevocationList
+
+                Full Name:
+                  DirName:C = SI, O = NLB d.d., 2.5.4.97 = VATSI-91132550, CN = ACNLB RootCA, CN = CRL1
+
+            X509v3 Authority Key Identifier: 
+                keyid:4A:79:C1:5E:32:81:C6:87
+
+            X509v3 Subject Key Identifier: 
+                45:4F:BC:6B:EA:4A:EA:8B
+    Signature Algorithm: sha256WithRSAEncryption
+         40:12:ca:d0:d4:22:32:d2:85:72:4a:ee:05:7a:7a:6b:34:ef:
+         dc:72:22:44:2c:65:93:58:00:4c:cd:e7:67:4e:74:0d:13:98:
+         78:54:7e:f5:e6:a9:42:c6:fb:8a:2a:6f:90:9a:9d:a8:4d:65:
+         7b:b8:c2:b6:14:17:9e:76:e0:2b:3c:ea:2d:4a:8a:39:67:98:
+         3f:68:31:1d:a6:b5:80:27:be:e1:e3:d1:4e:44:91:e5:ad:a6:
+         1e:b9:04:06:be:2d:12:83:d7:85:73:16:96:29:fc:75:90:6e:
+         c0:cd:8c:ef:f7:1f:85:95:de:7b:df:53:56:ed:38:48:54:00:
+         38:55:03:ca:a7:dd:f2:56:9d:87:fd:7a:81:93:88:ed:6e:55:
+         35:30:c1:ee:ea:98:1c:36:98:05:a7:b4:fe:ba:67:10:61:f7:
+         6b:7b:73:27:f4:91:29:33:e0:64:2b:5e:6a:93:8f:0d:74:c7:
+         ea:7b:d2:1b:81:f0:84:57:80:c0:53:5a:73:89:7d:9f:4f:9c:
+         34:db:56:dc:f5:5f:af:a6:18:d3:e8:89:48:18:c3:ad:ee:ee:
+         f5:c4:99:c7:e7:83:04:5d:f0:b6:fb:51:f4:ef:72:67:5e:24:
+         ff:2d:ef:3f:c2:05:e8:bf:21:95:6f:16:14:3c:24:e5:04:44:
+         71:46:9c:d8:10:14:c6:88:6e:9d:1c:4a:75:a1:e4:d9:21:f7:
+         9c:18:9d:e7:07:69:a4:41:75:10:49:84:51:7a:b1:01:70:8a:
+         f9:36:93:32:83:f5:78:c1:a5:7d:5e:d0:a1:dc:d0:81:2e:7a:
+         ba:40:4b:35:57:80:54:ff:11:7c:bd:65:d5:04:85:d1:57:18:
+         aa:02:4c:5a:70:a2:28:54:6c:ac:9a:be:27:0c:68:09:2b:7b:
+         26:89:73:63:7c:2d:8a:e9:35:08:7a:26:36:1a:af:17:2e:0d:
+         be:c8:12:19:38:bf:dc:82:34:42:28:b6:b5:b1:64:be:e7:f5:
+         ad:2b:f9:82:c8:94

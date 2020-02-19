@@ -1,0 +1,70 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 1053001358 (0x3ec3868e)
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C = SI, O = ACNLB
+        Validity
+            Not Before: May 15 11:52:45 2003 GMT
+            Not After : May 15 12:22:45 2023 GMT
+        Subject: C = SI, O = ACNLB
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:bf:76:75:3d:0c:7c:40:3a:66:5f:4d:8c:fb:dd:
+                    3c:2e:fe:7d:94:64:ed:4a:d4:49:48:a1:ee:91:71:
+                    b2:79:c8:8e:2b:1f:aa:f0:32:b4:28:b2:a3:c2:75:
+                    4f:a4:e9:a6:1a:f6:a2:66:61:23:27:61:2c:6e:17:
+                    90:0b:fa:de:1e:71:52:02:29:04:99:79:ac:c0:b0:
+                    c0:66:98:98:11:37:64:10:cf:9c:bc:3b:42:1c:29:
+                    5c:55:90:f6:7a:22:4e:56:af:37:68:bf:74:3a:6c:
+                    3c:c6:98:cc:60:21:bf:e2:08:27:e4:d9:2b:bc:e3:
+                    84:95:d7:d4:24:60:fc:7e:2d:2f:9d:21:eb:9d:91:
+                    c6:bb:a4:d1:eb:c9:12:ad:a3:e8:c8:b5:7f:55:4b:
+                    eb:99:02:54:c4:81:1c:0c:ae:39:e4:6a:7a:05:d8:
+                    4e:70:a0:fa:03:77:b3:ae:d8:b8:14:92:fb:41:77:
+                    13:35:6a:b7:a2:ca:88:4b:ad:2d:51:bc:76:9a:6c:
+                    bb:40:bd:e7:24:4c:22:a6:e6:fd:4e:08:7b:9d:0b:
+                    10:d6:12:d2:a6:c6:a1:64:32:f4:01:73:96:81:e2:
+                    48:b0:c1:28:63:3d:3b:e7:67:ac:6e:c5:14:f5:17:
+                    13:a2:9c:1f:2b:57:f0:15:27:75:5d:dd:b1:34:d6:
+                    93:11
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            Netscape Cert Type: 
+                SSL CA, S/MIME CA, Object Signing CA
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  DirName:C = SI, O = ACNLB, CN = CRL1
+
+            X509v3 Private Key Usage Period: 
+                Not Before: May 15 11:52:45 2003 GMT, Not After: May 15 12:22:45 2023 GMT
+            X509v3 Key Usage: 
+                Certificate Sign, CRL Sign
+            X509v3 Authority Key Identifier: 
+                keyid:CC:BB:BB:86:D6:6F:F8:BE:B4:47:22:77:B3:B6:AD:D7:01:59:96:4D
+
+            X509v3 Subject Key Identifier: 
+                CC:BB:BB:86:D6:6F:F8:BE:B4:47:22:77:B3:B6:AD:D7:01:59:96:4D
+            X509v3 Basic Constraints: 
+                CA:TRUE
+            1.2.840.113533.7.65.0: 
+                0...V6.0:4.0....
+    Signature Algorithm: sha1WithRSAEncryption
+         11:67:cb:cb:9a:6b:20:21:dd:6f:69:83:d5:3f:0d:ba:93:15:
+         97:4e:70:76:26:5c:e8:9e:24:e7:37:fe:3c:50:f4:d4:f9:2a:
+         2f:0c:13:a1:5d:04:bc:d0:b0:e9:c2:03:17:85:05:61:3d:c0:
+         a7:aa:76:4c:c3:b8:3a:83:a9:86:cf:03:f9:77:0e:2b:b2:3d:
+         76:1b:65:d1:6a:71:60:71:db:bb:b8:7a:8e:f2:f9:21:83:f8:
+         57:4c:a8:c7:dd:65:c6:ee:ef:6f:b3:b6:99:bb:b4:c3:d0:ab:
+         5f:b2:a0:7e:dd:74:21:2c:c3:5a:eb:8d:a1:ca:d8:f0:c8:17:
+         ed:76:ba:84:63:6e:5b:b9:b5:ca:6d:d7:fc:34:39:80:2f:ba:
+         4f:df:8d:d8:fc:18:c4:3c:8a:35:2f:77:82:96:ad:20:92:18:
+         b2:e7:36:f4:ae:32:74:b8:47:d1:d8:0f:d8:2c:cb:6a:c2:00:
+         75:f9:2c:f8:42:0e:cb:fe:73:93:a9:8f:e1:c7:ae:21:37:f3:
+         ca:b9:0c:b4:e7:89:7e:71:1c:56:34:20:c3:f1:34:b9:55:4b:
+         d3:53:52:f1:07:2d:2b:3e:5b:19:40:9f:10:ed:d3:29:33:c5:
+         af:0f:10:56:87:da:3b:c8:b1:ed:38:d9:19:fb:4b:f0:50:2d:
+         a4:cd:d4:58
