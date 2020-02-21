@@ -26,6 +26,7 @@ No comando 4 (1024 bytes) a fonte de aletoriedade é o /dev/urandom, pelo facto 
 **Pergunta P1.2**
 
 Comandos a analisar:
+
 3. head -c 1024 /dev/random | openssl enc -base64
 4. head -c 1024 /dev/urandom | openssl enc -base64
 
