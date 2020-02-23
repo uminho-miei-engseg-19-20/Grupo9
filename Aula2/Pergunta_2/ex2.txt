@@ -1,0 +1,31 @@
+
+Partilha/Divisão de Segredo
+2.1 A
+
+Ao observar o comando \textit{python createSharedSecret-app.py number_of_shares quorum uid private-key.pem} observamos que precisavamos de criar uma chave privada, para isso recorremos ao comando \textit{openssl genrsa -aes128 -out private-key.pem 1024} para obtermos a chave necessária.
+
+\textit[Nota: chave para aceder á chave private-Key.pem => secret}
+
+
+
+
+adicionar fig. genPrivKey.png
+
+
+
+
+
+
+Em seguida tratamos de gerar os códigos pedidos, nesta geração utilizamos o número 8 como o number_of_shares, 5 como o quorum e o uid foi g9 visto sermos o grupo 9.
+
+
+Adicionar fig.8componentGen.png
+
+
+
+
+
+
+2.1 B
+
+O ficheiro recoverSecretFromComponents-app.py permite recuperar o segredo com apenas 5 dos código (o número 5 deve-se ao quorum escolhido quando foram criados os códigos). Já o ficheiro recoverSecretFromAllComponents-app.py permite apenas recuperar o segredo caso forneçamos todas as 8 componentes (8 foi o número de componentes escolhidas a serem geradas - number_of_shares). No entanto este ultimo ficheiro é necessário caso tenhamos necessidade de alterar o segredo, visto que são necessárias as 8 componentes para possibilitar a alteração do segredo e redistribuição de novas chaves.
