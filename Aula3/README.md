@@ -1,0 +1,1 @@
+Análise do site www.portugal.gov.pt
