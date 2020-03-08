@@ -31,21 +31,21 @@
 
 ### Pergunta 1.1
 
-- Assinante:
+Assinante:
 
 * [init-app.py](https://github.com/uminho-miei-engseg-19-20/Grupo9/blob/master/Aula3/questao1/P1.1/init-app.py)
 
 * [blindSignature-app.py](https://github.com/uminho-miei-engseg-19-20/Grupo9/blob/master/Aula3/questao1/P1.1/blindSignature-app.py)
 
 
-- Requerente:
+Requerente:
 
 * [ofusca-app.py](https://github.com/uminho-miei-engseg-19-20/Grupo9/blob/master/Aula3/questao1/P1.1/ofusca-app.py)
 
 * [desofusca-app.py](https://github.com/uminho-miei-engseg-19-20/Grupo9/blob/master/Aula3/questao1/P1.1/desofusca-app.py)
 
 
-- Verificador:
+Verificador:
 
 * [verify-app.py](https://github.com/uminho-miei-engseg-19-20/Grupo9/blob/master/Aula3/questao1/P1.1/verify-app.py)
 
