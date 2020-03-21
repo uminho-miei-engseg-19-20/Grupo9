@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.7)  18 MAR 2020 18:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.10.7)  21 MAR 2020 19:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -192,35 +192,114 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks22
 \@floatcapt=\box56
 )
-(./samplepaper.aux)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count120
+\lst@gtempboxa=\box57
+\lst@token=\toks23
+\lst@length=\count121
+\lst@currlwidth=\dimen128
+\lst@column=\count122
+\lst@pos=\count123
+\lst@lostspace=\dimen129
+\lst@width=\dimen130
+\lst@newlines=\count124
+\lst@lineno=\count125
+\lst@maxwidth=\dimen131
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\c@lstnumber=\count126
+\lst@skipnumbers=\count127
+\lst@framebox=\box58
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/02/27 1.8b listings configuration
+))
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
+
+(./samplepaper.aux
+
+LaTeX Warning: Label `fig02' multiply defined.
+
+
+LaTeX Warning: Label `fig02' multiply defined.
+
+
+LaTeX Warning: Label `fig02' multiply defined.
+
+
+LaTeX Warning: Label `fig02' multiply defined.
+
+
+LaTeX Warning: Label `fig02' multiply defined.
+
+
+LaTeX Warning: Label `fig02' multiply defined.
+
+
+LaTeX Warning: Label `fig02' multiply defined.
+
+
+LaTeX Warning: Label `fig02' multiply defined.
+
+
+LaTeX Warning: Label `fig02' multiply defined.
+
+
+LaTeX Warning: Label `fig02' multiply defined.
+
+
+LaTeX Warning: Label `fig02' multiply defined.
+
+
+LaTeX Warning: Label `fig02' multiply defined.
+
+
+LaTeX Warning: Label `fig02' multiply defined.
+
+
+LaTeX Warning: Label `fig02' multiply defined.
+
+
+LaTeX Warning: Label `fig02' multiply defined.
+
+
+LaTeX Warning: Label `fig02' multiply defined.
+
+
+LaTeX Warning: Label `fig02' multiply defined.
+
+
+LaTeX Warning: Label `fig02' multiply defined.
+
+)
 \openout1 = `samplepaper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-
-(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+ (/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count120
-\scratchdimen=\dimen128
-\scratchbox=\box57
-\nofMPsegments=\count121
-\nofMParguments=\count122
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count123
-\MPscratchDim=\dimen129
-\MPnumerator=\count124
-\makeMPintoPDFobject=\count125
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count128
+\scratchdimen=\dimen132
+\scratchbox=\box59
+\nofMPsegments=\count129
+\nofMParguments=\count130
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count131
+\MPscratchDim=\dimen133
+\MPnumerator=\count132
+\makeMPintoPDFobject=\count133
+\everyMPtoPDFconversion=\toks25
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -272,6 +351,8 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+\c@lstlisting=\count134
+
 (./title.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 16.
@@ -287,27 +368,274 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
 [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] (./samplepaper.aux) ) 
+(./iOS.tex
+Overfull \hbox (1.68274pt too wide) in paragraph at lines 4--4
+[]\T1/cmr/m/n/10 Apps no iOS es-tão iso-la-das umas das ou-tras atra-vés de uma
+ sand-box(Seatbelt)
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 15.
+[2] [3]
+Overfull \hbox (15.06024pt too wide) in paragraph at lines 86--86
+ \T1/cmr/bx/n/10 3.1.1 Tes-tar o Ar-ma-ze-na-mento Lo-cal (MSTG-STORAGE-1 and M
+STG-
+ []
+
+<./images/image17.png, id=21, 630.355pt x 215.80624pt>
+File: ./images/image17.png Graphic file (type png)
+<use ./images/image17.png>
+Package pdftex.def Info: ./images/image17.png  used on input line 94.
+(pdftex.def)             Requested size: 347.12354pt x 118.83868pt.
+[4 <./images/image17.png>]
+Overfull \hbox (14.35486pt too wide) in paragraph at lines 140--140
+ \T1/cmr/bx/n/10 3.1.2 De-ter-mi-nar se da-dos sen-sí-veis são en-vi-a-dos para
+ ter-çei-ros (MSTG-
+ []
+
+
+Overfull \hbox (12.53725pt too wide) in paragraph at lines 152--152
+ \T1/cmr/bx/n/10 3.1.3 Pro-cu-rar da-dos sen-sí-veis na ca-che do te-clado (MST
+G-STORAGE-
+ []
+
+<./images/image26.png, id=28, 644.4075pt x 73.27374pt>
+File: ./images/image26.png Graphic file (type png)
+<use ./images/image26.png>
+Package pdftex.def Info: ./images/image26.png  used on input line 173.
+(pdftex.def)             Requested size: 347.12354pt x 39.47218pt.
+[5]
+<./images/image27.png, id=33, 635.37375pt x 69.25874pt>
+File: ./images/image27.png Graphic file (type png)
+<use ./images/image27.png>
+Package pdftex.def Info: ./images/image27.png  used on input line 184.
+(pdftex.def)             Requested size: 347.12354pt x 37.83878pt.
+ [6 <./images/image26.png> <./images/image27.png>]
+<./images/image38.png, id=39, 642.4pt x 138.5175pt>
+File: ./images/image38.png Graphic file (type png)
+<use ./images/image38.png>
+Package pdftex.def Info: ./images/image38.png  used on input line 227.
+(pdftex.def)             Requested size: 347.12354pt x 74.85117pt.
+<./images/image39.png, id=40, 642.4pt x 117.43875pt>
+File: ./images/image39.png Graphic file (type png)
+<use ./images/image39.png>
+Package pdftex.def Info: ./images/image39.png  used on input line 236.
+(pdftex.def)             Requested size: 347.12354pt x 63.46077pt.
+<./images/image40.png, id=41, 643.40375pt x 135.50626pt>
+File: ./images/image40.png Graphic file (type png)
+<use ./images/image40.png>
+Package pdftex.def Info: ./images/image40.png  used on input line 244.
+(pdftex.def)             Requested size: 347.12354pt x 73.10817pt.
+
+Underfull \vbox (badness 1024) has occurred while \output is active []
+
+ [7 <./images/image38.png> <./images/image39.png>]
+<./images/image41.png, id=48, 656.4525pt x 204.765pt>
+File: ./images/image41.png Graphic file (type png)
+<use ./images/image41.png>
+Package pdftex.def Info: ./images/image41.png  used on input line 254.
+(pdftex.def)             Requested size: 347.12354pt x 108.27809pt.
+
+Overfull \hbox (33.56267pt too wide) in paragraph at lines 265--265
+ \T1/cmr/bx/n/10 3.2.2 Tes-ting Key Ma-na-ge-ment (MSTG-CRYPTO-1 and MSTG-CRYPT
+O-
+ []
+
+[8 <./images/image40.png> <./images/image41.png>]
+Overfull \hbox (30.18744pt too wide) in paragraph at lines 306--307
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (52.3822pt too wide) in paragraph at lines 312--313
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (41.28482pt too wide) in paragraph at lines 316--317
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+[9] [10]
+<./images/image42.png, id=61, 639.38875pt x 132.495pt>
+File: ./images/image42.png Graphic file (type png)
+<use ./images/image42.png>
+Package pdftex.def Info: ./images/image42.png  used on input line 399.
+(pdftex.def)             Requested size: 347.12354pt x 71.93236pt.
+ [11 <./images/image42.png>]
+Overfull \hbox (18.47191pt too wide) in paragraph at lines 418--418
+ \T1/cmr/bx/n/10 3.4.2 Tes-ting Cus-tom Cer-ti-fi-cate Sto-res and Cer-ti-fi-ca
+te Pin-ning (MSTG-
+ []
+
+[12]
+<./images/image45.png, id=69, 359.3425pt x 253.94875pt>
+File: ./images/image45.png Graphic file (type png)
+<use ./images/image45.png>
+Package pdftex.def Info: ./images/image45.png  used on input line 473.
+(pdftex.def)             Requested size: 173.56177pt x 122.66124pt.
+ [13]
+<./images/image46.png, id=74, 613.29124pt x 107.40125pt>
+File: ./images/image46.png Graphic file (type png)
+<use ./images/image46.png>
+Package pdftex.def Info: ./images/image46.png  used on input line 480.
+(pdftex.def)             Requested size: 347.12354pt x 60.78996pt.
+<./images/image47.png, id=75, 648.4225pt x 279.0425pt>
+File: ./images/image47.png Graphic file (type png)
+<use ./images/image47.png>
+Package pdftex.def Info: ./images/image47.png  used on input line 493.
+(pdftex.def)             Requested size: 347.12354pt x 149.38205pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14 <./images/image45.png> <./images/image46.png>]
+<./images/image48.png, id=81, 642.4pt x 229.85875pt>
+File: ./images/image48.png Graphic file (type png)
+<use ./images/image48.png>
+Package pdftex.def Info: ./images/image48.png  used on input line 505.
+(pdftex.def)             Requested size: 347.12354pt x 124.20955pt.
+ [15 <./images/image47.png> <./images/image48.png>]
+Overfull \hbox (20.7062pt too wide) in paragraph at lines 524--524
+ \T1/cmr/bx/n/10 3.5.2 Tes-ting for Sen-si-tive Func-ti-o-na-lity Ex-po-sure Th
+-rough IPC (MSTG-
+ []
+
+<./images/image49.png, id=88, 647.41875pt x 132.495pt>
+File: ./images/image49.png Graphic file (type png)
+<use ./images/image49.png>
+Package pdftex.def Info: ./images/image49.png  used on input line 540.
+(pdftex.def)             Requested size: 347.12354pt x 71.03877pt.
+<./images/image50.png, id=89, 631.35875pt x 230.8625pt>
+File: ./images/image50.png Graphic file (type png)
+<use ./images/image50.png>
+Package pdftex.def Info: ./images/image50.png  used on input line 554.
+(pdftex.def)             Requested size: 347.12354pt x 126.92896pt.
+
+Underfull \vbox (badness 4341) has occurred while \output is active []
+
+ [16 <./images/image49.png>]
+Overfull \hbox (51.97186pt too wide) in paragraph at lines 565--565
+[]\T1/cmr/m/n/10 Adicionalmente, quando a apli-ca-ção usar o mé-todo \T1/cmr/m/
+it/10 ope-nURL:options:completionHandler:
+ []
+
+<./images/image51.png, id=94, 642.4pt x 155.58125pt>
+File: ./images/image51.png Graphic file (type png)
+<use ./images/image51.png>
+Package pdftex.def Info: ./images/image51.png  used on input line 586.
+(pdftex.def)             Requested size: 347.12354pt x 84.07196pt.
+
+Underfull \vbox (badness 2735) has occurred while \output is active []
+
+ [17 <./images/image50.png>]
+Overfull \hbox (19.44398pt too wide) in paragraph at lines 597--598
+[][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (19.44398pt too wide) in paragraph at lines 598--599
+[][][][] 
+ []
+
+
+Overfull \hbox (19.44398pt too wide) in paragraph at lines 599--600
+[][][][] 
+ []
+
+<./images/image52.png, id=99, 648.4225pt x 363.3575pt>
+File: ./images/image52.png Graphic file (type png)
+<use ./images/image52.png>
+Package pdftex.def Info: ./images/image52.png  used on input line 609.
+(pdftex.def)             Requested size: 347.12354pt x 194.51907pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18 <./images/image51.png>]
+<./images/image53.png, id=104, 645.41125pt x 473.77pt>
+File: ./images/image53.png Graphic file (type png)
+<use ./images/image53.png>
+Package pdftex.def Info: ./images/image53.png  used on input line 616.
+(pdftex.def)             Requested size: 347.12354pt x 254.80545pt.
+
+Underfull \vbox (badness 1960) has occurred while \output is active []
+
+ [19 <./images/image52.png> <./images/image53.png>]
+Overfull \hbox (3.15619pt too wide) in paragraph at lines 624--626
+\T1/cmr/m/n/10 Para isso, basta adi-ci-o-nar ao fi-cheiro stub o se-guinte có-d
+igo: "log("userInfo:"+
+ []
+
+<./images/image54.png, id=111, 648.4225pt x 218.8175pt>
+File: ./images/image54.png Graphic file (type png)
+<use ./images/image54.png>
+Package pdftex.def Info: ./images/image54.png  used on input line 629.
+(pdftex.def)             Requested size: 347.12354pt x 117.14133pt.
+[20 <./images/image54.png>]
+<./images/image55.png, id=116, 693.59125pt x 255.95625pt>
+File: ./images/image55.png Graphic file (type png)
+<use ./images/image55.png>
+Package pdftex.def Info: ./images/image55.png  used on input line 667.
+(pdftex.def)             Requested size: 347.12354pt x 128.10278pt.
+
+Overfull \hbox (9.80865pt too wide) in paragraph at lines 683--683
+[]\T1/cmr/m/it/10 JSContext: \T1/cmr/m/n/10 Quando é atri-buido um iden-ti-fi-c
+a-dor a um bloco Swift ou Objective-
+ []
+
+[21 <./images/image55.png>]
+Overfull \hbox (80.12566pt too wide) in paragraph at lines 694--695
+[][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (63.47958pt too wide) in paragraph at lines 720--721
+[][][][][][][][][][][][][][] 
+ []
+
+<./images/image56.png, id=121, 370.38374pt x 264.99pt>
+File: ./images/image56.png Graphic file (type png)
+<use ./images/image56.png>
+Package pdftex.def Info: ./images/image56.png  used on input line 726.
+(pdftex.def)             Requested size: 173.56177pt x 124.17331pt.
+[22 <./images/image56.png>])
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+[]\T1/cmr/m/n/9 https://mobile-security.gitbook.io/mobile-security-testing-guid
+e/ios-testing-
+ []
+
+[23] (./samplepaper.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2709 strings out of 492616
- 36306 string characters out of 6129481
- 115498 words of memory out of 5000000
- 6598 multiletter control sequences out of 15000+600000
- 10058 words of font info for 23 fonts, out of 8000000 for 9000
+ 4455 strings out of 492616
+ 60033 string characters out of 6129481
+ 144075 words of memory out of 5000000
+ 8297 multiletter control sequences out of 15000+600000
+ 15233 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,5n,25p,274b,198s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm
--super/cm-super-t1.enc}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy9.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-
-super/sfbx0900.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-su
-per/sfbx1000.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-supe
-r/sfbx1200.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/
-sfbx1440.pfb></usr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sf
-rm0900.pfb>
-Output written on samplepaper.pdf (2 pages, 81522 bytes).
+ 41i,9n,32p,740b,1095s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/t
+exlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texli
+ve/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive
+/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2
+019/texmf-dist/fonts/type1/public/cm-super/sfti0900.pfb></usr/local/texlive/201
+9/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on samplepaper.pdf (23 pages, 819573 bytes).
 PDF statistics:
- 36 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
+ 172 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
 

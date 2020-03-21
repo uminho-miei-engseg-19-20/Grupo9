@@ -9,6 +9,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{verbatim}
 \usepackage{float}
+\usepackage{listings}
 %Path relative to the .tex file containing the \includegraphics command
 \graphicspath{ {./images/} }
 % Used for displaying a sample figure. If possible, figure files should
@@ -34,6 +35,7 @@
 \counterwithin{subparagraph}{paragraph}
 \makeatother
 
+
 \begin{document}
 \input{title.tex}
 
@@ -43,7 +45,7 @@
 
 % regra de adição -> \input{ficheiro a adicionar pela ordem certa}
 %\input{}
-
+\input{iOS.tex}
 
 
 %
@@ -55,11 +57,16 @@
 % \bibliographystyle{splncs04}
 % \bibliography{mybibliography}
 %
+
 \begin{thebibliography}{8}
+
 %regra de adição exemplo
-\bibitem{ref_intro1}
-https://www.itu.int/en/ITU-D/Statistics/Pages/stat/default.aspx
-
-
+\bibitem{ref_intro1} https://www.theiphonewiki.com/wiki/DFU\_Mode
+\bibitem{ref_intro2} https://www.lifewire.com/what-is-jailbreaking-2377420
+\bibitem{ref_intro3} https://mobile-security.gitbook.io/mobile-security-testing-guide/ios-testing-guide/0x06j-testing-resiliency-against-reverse-engineering
+\bibitem{ref_intro4} https://developer.apple.com/documentation/foundation/nsurlconnection
+\bibitem{ref_intro5} https://developer.apple.com/documentation/foundation/nsurlsession
+\bibitem{ref_intro6} https://developer.apple.com/documentation/corefoundation/cfurl-rd7
+\bibitem{book} Bernhard Mueller, Sven Schleier, Jeroen Willemsen, Carlos Holguera, The OWASP mobile team. MSTG - Mobile Security Testing Guide. The OWASP Foundation. 2 August 2019
 \end{thebibliography}
 \end{document}
