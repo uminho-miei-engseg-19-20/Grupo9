@@ -10,6 +10,11 @@
 %\tableofcontents
 
 \newpage
+\hfill\par
+\hfill\par
+\centerline{\Huge\textbf Android}\par
+\hfill\par
+\hfill\par
 \section{Arquitetura de Segurança do Android}
 \begin{figure}[h!]
 \centering
@@ -129,7 +134,9 @@ Os dados públicos devem estar disponíveis para todos, mas os dados confidencia
 Para além de proteger dados confidenciais, é necessário garantir que os dados lidos de qualquer fonte de armazenamento sejam validados e possivelmente limpos. Esta validação geralmente serve para garantir que os dados apresentados sejam do tipo solicitado, mas com o uso de HMAC's é possível validar a correção dos dados.
 
 
-\subsubsection{Testar o armazenamento local para dados confidenciais (MSTG-STORAGE-1 e MSTG-STORAGE-2)}
+\subsubsection{Testar o armazenamento local para dados confidenciais (MSTG-STORAGE-1 e MSTG-STORAGE-2)}\par
+\hfill\par
+\hfill\par
 Por norma, deve-se armazenar o mínimo possível de dados sensíveis no armazenamento local permanentemente. No entanto, algum tipo de dado do utilizador deve ser armazenado. Por exemplo, pedir ao utilizador que insira uma senha muito complexa de todas as vezes que a aplicação inicie não é uma boa idéia em termos de usabilidade. Deste modo, as aplicações devem armazenar em cache algum tipo de token de autenticação para evitar isso.
 \\
 \\
@@ -156,18 +163,20 @@ Os dados podem ser armazenados persistentemente de várias maneiras, entre as qu
 \\
 \par \textbf{Bases de dados SQLite}
 \begin{itemize}
-    \item \textbf{Bases de dados SQLite (não encriptadas)} - SQLite é um mecanismo de banco de dados SQL que armazena dados em arquivos .db. O Android SDK possui suporte interno para bancos de dados SQLite. O pacote principal usado para gerenciar os bancos de dados é android.database.sqlite. 
-
+    \item \textbf{Bases de dados SQLite (não encriptadas)} - SQLite é um mecanismo de banco de dados SQL que armazena dados em arquivos .db. O Android SDK possui suporte interno para bancos de dados SQLite. O pacote principal usado para gerenciar os bancos de dados é android.database.sqlite. \par
+\hfill\par
 \item \textbf{Bases de dados SQLite (encriptadas)} - Se as bases de dados SQLite encriptadas forem usadas, a senha estará codificada na fonte, armazenada em preferências compartilhadas ou oculta noutro lugar no código ou no sistema de arquivos. 
 \par As formas seguras de recuperar a chave incluem:
     \begin{itemize}
-        \item Solicitando ao utilizador que decodifique a base de dados com um PIN ou senha assim que a aplicação for aberta (senhas e PINs fracos são vulneráveis a ataques de força bruta)
+        \item Solicitando ao utilizador que decodifique a base de dados com um PIN ou senha assim que a aplicação for aberta (senhas e PINs fracos são vulneráveis a ataques de força bruta)\par
+        \hfill\par
         \item Armazenando a chave no servidor e permitindo que ela seja acessada apenas a partir de um serviço da Web (para que a aplicação possa ser usada apenas quando o dispositivo estiver online)
     \end{itemize}
 \end{itemize}
 
-
-\textbf{Bancos de dados Firebase}
+\hfill\par
+\textbf{Bancos de dados Firebase}\par
+\hfill\par
 \par O Firebase é uma plataforma de desenvolvimento que pode ser aproveitada para armazenar e sincronizar dados de uma aplicção com um banco de dados hospedado na nuvem NoSQL. Os dados são armazenados como JSON e são sincronizados em tempo real com todos os clientes conectados e também permanecem disponíveis mesmo quando o aplicativo fica offline.
 \\
 \par \textbf{Armazenamento interno}
@@ -178,29 +187,33 @@ Os dados podem ser armazenados persistentemente de várias maneiras, entre as qu
 
 
 
-\subsubsection{Determinar se dados sensíveis são enviados a terceiros (MSTG-STORAGE-4)}
+\subsubsection{Determinar se dados sensíveis são enviados a terceiros (MSTG-STORAGE-4)}\par
+\hfill\par
+\hfill\par
 \par A possibilidade de incorporar serviços de terceiros nas aplicações, é que este tipo de serviços podem ter implementados serviços de rastreamento, monitorização do comportamento do utilizador, venda de anúncios em banner, entre outros.
 \par Pelo que a desvantagem, neste tipo de serviços é a falta de visibilidade, ou seja, não sabermos exatamente qual o código que executam. Desta forma, deve garantir-se que apenas sejam enviadas as informações não sensíveis necessárias.
 
 
-\subsubsection{Procurar dados sensíveis na cache do teclado (MSTG-STORAGE-5)}
+\subsubsection{Procurar dados sensíveis na cache do teclado (MSTG-STORAGE-5)}\par
+\hfill\par
+\hfill\par
 \par A inserção de dados por parte dos utilizadores, é algo que pode ser comprometer informações confidenciais. Ou seja, quando os utilizadores inserem informação nos campos de entrada, o software sugere dados automaticamente, o que em parte pode ser muito útil para aplicações de mensagens, mas, em contrapartida, a cache do teclado pode divulgar informações confidenciais quando o utilizador seleciona um campo de entrada que aceita esse tipo de informação, pelo que se torna necessário limpar a cache do teclado de vez enquando.
 
 
 
-\subsubsection{Verificar a divulgação confidencial de dados por meio da interface do utilizador (MSTG-STORAGE-7)}
+\subsubsection{Verificar a divulgação confidencial de dados por meio da interface do utilizador (MSTG-STORAGE-7)}\par
+\hfill\par
+\hfill\par
 \par São enumeras as aplicações que exigem que os utilizadores insiram vários tipos de dados para, por exemplo, registrar uma conta ou efetuar um pagamento, entre outros. 
 \par Este tipo de aplicaçóes requerem alguns cuidados, visto que ocorre a exposição de dados confidenciais, pelo que, é imperativo que estes não sejam mostrados em texto limpo na interface após inseridos. Os dados dados confidenciais devem então ser mascarados, através de asteriscos ou pontos em vez de texto não encriptado.
 
 
 
-
-
-
-\newpage
-\subsection{Android Cryptographic APIs}
-
-\subsubsection{Testando a configuração de algoritmos padrão criptográficos (MSTG-CRYPTO-2, MSTG-CRYPTO-3 e MSTG-CRYPTO-4)}
+\subsection{Android Cryptographic APIs}\par
+\hfill\par
+\subsubsection{Testando a configuração de algoritmos padrão criptográficos (MSTG-CRYPTO-2, MSTG-CRYPTO-3 e MSTG-CRYPTO-4)}\par
+\hfill\par
+\hfill\par
 \par As APIs de criptografia do Android são baseadas em Java Cryptography Architecture (JCA). Esta separa as interfaces e a implementação, o que possibilita incluir vários provedores de segurança que podem implementar conjuntos de algoritmos criptográficos.
 \par A maioria das interfaces e classes JCA são definidas nos pacotes java.security.* e javax.crypto.*. Para além disso, existem ainda pacotes específicos para Android, android.security.* e android.security.keystore.*.
 
@@ -208,7 +221,9 @@ Os dados podem ser armazenados persistentemente de várias maneiras, entre as qu
 
 
 
-\subsubsection{Teste do manutenção de chaves (MSTG-STORAGE-1, MSTG-CRYPTO-1 e MSTG-CRYPTO-5)}
+\subsubsection{Teste do manutenção de chaves (MSTG-STORAGE-1, MSTG-CRYPTO-1 e MSTG-CRYPTO-5)}\par
+\hfill\par
+\hfill\par
 \par Quando o assunto são chaves criptográficas, deve ter se especial atenção, visto existirem tanto maneiras seguras como inseguras para o seu armazenamento. 
 \par A maneira mais segura de manusear conteúdos importantes, simplesmente é nunca armazená-los no dispositivo, ou seja, o que significa que o utilizador deve ser solicitado a inserir uma senha sempre que a aplicação precisar de executar uma operação criptográfica, o que do do ponto de vista da experiência do utilizador torna-se inpensável. A razão disto é que o conteúdo principal estaja disponível apenas numa matriz na memória enquanto estiver a ser usado, e quando a chave não estiver a ser necessária, a matriz pode ser zerada, o que minimiza a janela de ataque. Nenhum conteúdo importante afeta o sistema de arquivos e nenhuma senha é armazenada. 
 
@@ -216,7 +231,9 @@ Os dados podem ser armazenados persistentemente de várias maneiras, entre as qu
 
 
 
-\subsubsection{Testar a geração de números aleatórios (MSTG-CRYPTO-6)}
+\subsubsection{Testar a geração de números aleatórios (MSTG-CRYPTO-6)}\par
+\hfill\par
+\hfill\par
 \par A criptografia requer geração segura de números pseudo-aleatórios (PRNG).
 \par As classes Java padrão não fornecem aleatoriedade suficiente e, de fato, podem permitir que um atacante adivinhe o próximo valor que será gerado e use esse palpite para representar outro utilizador ou aceder a informações confidenciais.
 
@@ -232,7 +249,9 @@ Os dados podem ser armazenados persistentemente de várias maneiras, entre as qu
 
 
 
-\subsubsection{Testar credenciais de confirmação (MSTG-AUTH-1 e MSTG-STORAGE-11)}
+\subsubsection{Testar credenciais de confirmação (MSTG-AUTH-1 e MSTG-STORAGE-11)}\par
+\hfill\par
+\hfill\par
 \par O fluxo de confirmação da credencial está disponível desde da versão 6.0 e é usada para garantir que os utilizadores não precisem de inserir senhas específicas da aplicação junto com a proteção da tela de bloqueio. 
 
 \par Em vez disso, se um utilizador que fez login no dispositivo recentemente, as suas credenciais de confirmação podem ser usadas para desbloquear conteúdos criptográficos na AndroidKeystore. Ou seja, se o utilizador desbloqueou o dispositivo dentro dos limites de tempo definidos (setUserAuthenticationValidityDurationSeconds), caso contrário, o dispositivo precisará de ser desbloqueado novamente.
@@ -244,7 +263,9 @@ Os dados podem ser armazenados persistentemente de várias maneiras, entre as qu
 %-------------------------------------------------------------------------------------------------------%
 \subsection{Android Network APIs}
 
-\subsubsection{Testar a verificação de identificação de terminal (MSTG-NETWORK-3)}
+\subsubsection{Testar a verificação de identificação de terminal (MSTG-NETWORK-3)}\par
+\hfill\par
+\hfill\par
 \par Uma das medidas de segurança para transporte de informação confidencial pela rede é o o uso do TLS. Porém, a comunicação encriptada entre uma aplicação móvel e a sua API de back-end não é trivial. 
 
 \par Por norma, as soluções mais simples, mas menos seguras, como por exemplo, aquelas que aceitam qualquer certificado, para facilitar o processo de desenvolvimento, são soluções fracas que entram na versão de produção, e que acabam por expor os utilizadores a ataques man-in-the-middle.
@@ -258,7 +279,9 @@ Os dados podem ser armazenados persistentemente de várias maneiras, entre as qu
 
 
 
-\subsubsection{Testando armazenamentos de certificados personalizados e fixação de certificados (MSTG-NETWORK-4)}
+\subsubsection{Testando armazenamentos de certificados personalizados e fixação de certificados (MSTG-NETWORK-4)}\par
+\hfill\par
+\hfill\par
 \par O processo de armazenamento de certificados e fixação de certificados é algo a que se deve prestar especial atenção, pois a aceitação de qualquer certificado assinado pode ser um processo compremetedor, ou seja, apenas deve ser feita a aceitação de certificados assinados por autoridades de certificação de confiança.
 
 \par A fixação de certificado é o processo de associar o servidor back-end a um certificado X.509 ou chave pública específica, em vez de aceitar qualquer certificado assinado por uma autoridade de certificação confiável. Após armazenar o certificado ou a chave pública do servidor, a aplicação móvel conectar-se-á, posteriormente, apenas ao servidor conhecido. 
@@ -273,7 +296,9 @@ Os dados podem ser armazenados persistentemente de várias maneiras, entre as qu
 
 
 \subsection{Android Platform APIs}
-\subsubsection{Testar permissões de aplicativos (MSTG-PLATFORM-1)}
+\subsubsection{Testar permissões de aplicativos (MSTG-PLATFORM-1)}\par
+\hfill\par
+\hfill\par
 \par O Android atribui uma identidade distinta do sistema a todos as aplicações instaladas, e como cada aplicação opera numa área restrita de processo, as aplicações devem solicitar explicitamente o acesso a recursos e dados que estão fora da área restrita. 
 
 \par Para tal, elas solicitam este acesso declarando as permissões necessárias para usar os dados e recursos do sistema, e dependendo do quão sensíveis ou críticos sejam os dados ou os recursos, o próprio sistema Android concederá a permissão automaticamente ou, então, solicitará que o utilizador aprove a solicitação.
@@ -295,7 +320,9 @@ Como já referido anteriormente na secção "Permissões", estas são classifica
 
 
 
-\subsubsection{Testar exposição sensível à funcionalidade através do IPC (MSTG-PLATFORM-4)}
+\subsubsection{Testar exposição sensível à funcionalidade através do IPC (MSTG-PLATFORM-4)}\par
+\hfill\par
+\hfill\par
 Durante a implementação de uma aplicação móvel, os desenvolvedores podem usar técnicas tradicionais para IPC (como ficheiros ou sockets partilhadas), as funcionalidades do IPC para aplicações devem ser usadas visto serem muito mais seguras para não haver comprometimento de dados.
 
 

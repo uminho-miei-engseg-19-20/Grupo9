@@ -1,5 +1,9 @@
 
-\thechapter{iOS}
+\newpage
+\hfill\par
+\hfill\par
+\centerline{\Huge\textbf iOS}\par
+\hfill\par
 \hfill\par
 Apps no iOS estão isoladas umas das outras através de uma sandbox(Seatbelt) cujo propósito é limitar os danos ao sistema e aos dados do utilizador caso a aplicação seja corrompida. Existe também um controlo de acesso mandatorio (MAC) que descreve os recursos que a aplicação pode usar.\par
 
@@ -197,7 +201,7 @@ Para testar se a cache do teclado possui dados sensiveis que não deveriam ser g
 
 
 
-\subsubsection{Checking for Sensitive Data Disclosed Through the User Interface (MSTG-STORAGE-7)}
+\subsubsection{Procurar exposição de dados sensíveis na interface do utilizador (MSTG-STORAGE-7)}
 \hfill\par
 \hfill\par
 
@@ -214,7 +218,7 @@ A segunda é em interação com a aplicação a testar inserir os dados sensivei
 
 \hfill\par
 
-\subsubsection{Verifying the Configuration of Cryptographic Standard Algorithms (MSTG-CRYPTO-2 and MSTG- CRYPTO-3)}
+\subsubsection{Verificação da configuração dos algoritmos criptográficos standard (MSTG-CRYPTO-2 and MSTG- CRYPTO-3)}
 \hfill\par
 \hfill\par
 
@@ -261,7 +265,7 @@ Após determinarmos os 3 podemos verificar se estes são seguros ou se já estã
 
 
 
-\subsubsection{Testing Key Management (MSTG-CRYPTO-1 and MSTG-CRYPTO-5)}
+\subsubsection{Testar Gestão de Chaves (MSTG-CRYPTO-1 and MSTG-CRYPTO-5)}
 \hfill\par
 \hfill\par
 Quando guardamos uma chave é recomendado o uso do keyChain desde que não se use o atributo kSecAttrAccessibleAlways.
@@ -292,7 +296,7 @@ O teste falha se:
 
 
 
-\subsubsection{Testing Random Number Generation (MSTG- CRYPTO-6)}
+\subsubsection{Testar Geração Aleatória de Números (MSTG- CRYPTO-6)}
 \hfill\par
 \hfill\par
 
@@ -328,7 +332,7 @@ Durante a autenticação local, uma aplicação autentica um utilizador verifica
 Atacantes podem facilmente passar a autenticação local caso nada seja retornado do processo de autenticação.
 
 
-\subsubsection{Testing Local Authentication (MSTG-AUTH-8 and MSTG-STORAGE-11)}
+\subsubsection{Testar Autenticação Local (MSTG-AUTH-8 and MSTG-STORAGE-11)}
 \hfill\par
 \hfill\par
 É importante lembrar que a framework de autenticação local é um processo baseado em eventos e portanto não deve ser o único método de autenticação.\par
@@ -384,7 +388,7 @@ Se a aplicação continuar sem requerer a impressão digital esta não passou no
 Quase todas as aplicações no iOS atuam como cliente de um ou mais serviços remotos.  Como não podemos confiar nas redes pública. Temos portanto de garantir que as aplicações tomam medidas para mitigar os riscos. 
 
 
-\subsubsection{App Transport Security (MSTG-NETWORK-2)}
+\subsubsection{Segurança da Camada de Trasporte da Aplicação (MSTG-NETWORK-2)}
 \hfill\par
 \hfill\par
  A App Transport Security (ATS) é um conjunto de verificações de segurança que o sistema operativo realiza quando efetua conecções com NSURLConnection\footnote[6]{ Conecções NSURLConnection permitem carregar conteúdos de um URLao fornecer um pedido para um objeto URL\cite{ref_intro4}.}, NSURLSession\footnote[7]{A classe NSURLSession fornece uma API para download e para upload de dados entre pontos opostos de uma conexão indicados por URLs\cite{ref_intro5}.} e CFURL\footnote[8]{ O tipo CFURL fornece facilidade para criar, percorrer e desreferenciar strings URL\cite{ref_intro6}.} a servidores públicos. Estas verificações são efetuadas por defeito do iOS SDK 9 em diante.\par
@@ -414,11 +418,11 @@ As recomendações para o uso da ATS são:
 \item Se a apicação abrir sites web de terçeiros, do iOS 10 para a frente pode-se usar o \textit{NSAllowsArbitraryLoadsInWebContent} para desabilitar as restrições da ATS para o conteúdo das páginas web.
 \end{itemize}
 
-\subsubsection{Testing Custom Certificate Stores and Certificate Pinning (MSTG-NETWORK-3 and MSTG-NETWORK-4)}
+\subsubsection{Teste e Validação de Certificados (MSTG-NETWORK-3 and MSTG-NETWORK-4)}
 \hfill\par
 \hfill\par
 
-As autoridades de cetificação são uma parte fulcral da comunicação cliente-servidor. No iOS existem uma quantidade enorme de certificados confiaveis. CAs podem ser adicionadas manualmente pelo utilizador ou por malware, para precaver esta situação basta  remover a confiança nas CAs adicionadas.\par
+As autoridades de cetificação são uma parte fulcral da comunicação cliente-servidor. No iOS existem uma quantidade enorme de certificados confiáveis. CAs podem ser adicionadas manualmente pelo utilizador ou por malware, para precaver esta situação basta  remover a confiança nas CAs adicionadas.\par
 Falhas podem ocorrer se a aplicação esperar outra chave ou certificado do servidor, ou pode estar a ocorrer um ataque.
 Nestes casos basta seguir os passos referidos no capitulo \textit{Android Network APIs}\cite{book}.\par
 \hfill\par
@@ -453,7 +457,7 @@ Se não conseguirmos ver o tráfico apesar do SSL handshake funcionar então tod
 \hfill\par
 
 
-\subsubsection{Testing App Permissions (MSTG-PLATFORM-1)}
+\subsubsection{Testar Permissões das Aplicações (MSTG-PLATFORM-1)}
 \hfill\par
 \hfill\par
 
@@ -520,7 +524,7 @@ Desde o iOS 10 existem areas que precisam de inspeção ás permissões:
 
 
 
-\subsubsection{Testing for Sensitive Functionality Exposure Through IPC (MSTG-PLATFORM-4)}
+\subsubsection{Testar Exposição de Dados Sensiveis através de Funcionalidades IPC (MSTG-PLATFORM-4)}
 \hfill\par
 \hfill\par
 
@@ -671,7 +675,7 @@ Para melhor se percecionar a interação entre aplicações apresenta-se a image
 
 
 
-\subsubsection{Determining Whether Native Methods Are Exposed Through WebViews (MSTG-PLATFORM-7)}
+\subsubsection{Determinar Exposição de Métodos Nativos através de WebViews (MSTG-PLATFORM-7)}
 \hfill\par
 \hfill\par
 
@@ -729,7 +733,7 @@ O resultado pode ser visto na imagem seguinte.
 \end{figure}
 
 
-\subsubsection{Testing enforced updating (MSTG-ARCH-9)}
+\subsubsection{Testar Updates Forçados (MSTG-ARCH-9)}
 \hfill\par
 \hfill\par
 
