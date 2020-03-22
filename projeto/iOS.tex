@@ -30,7 +30,7 @@ Oferece poucos CIP(comunicação inter-processos) o que minimiza os vetores de a
 \hfill\par
 	Quando se decarregam aplicações da App Store é aplicado o FairPlay Code Encryption sobre estas. O processo para a implementação desta encriptação segue os seguintes passos:\par
 	\begin{enumerate}
-	\item Quando se regista uma nova conta Apple um par de chaves publica/privada é criada e atribuida á conta sendo que a privada é armazenada no dispositivo iOS e a pública fica na App Store.\par
+	\item Quando se regista uma nova conta Apple um par de chaves publica/privada é criada e atribuida à conta sendo que a privada é armazenada no dispositivo iOS e a pública fica na App Store.\par
 	\item Quando se quer descarregar uma aplicação, a App Store encripta com a chave pública a mesma e o dispositivo quando quiser usar a aplicação pela primeira vez após ser ligado desencripta-a com a chave privada\footnote[3]{Cada dispositivo tem um crypto-engine dedicado que fornece a geração de uma chave AES de 256 bit e um hash SHA-1.}.\par
 \end{enumerate}
 
@@ -110,7 +110,7 @@ Ficheiros têm 4 tipos de classes de proteção:
 		\hfill\par
 
 \item \textit{Proteção até ser aberta:}
-		Igual á anterior mas a chave não é apagada quando o dispositivo é bloqueado permitindo acesso ainda bloqueado. Útil para emails.\par
+		Igual à anterior mas a chave não é apagada quando o dispositivo é bloqueado permitindo acesso ainda bloqueado. Útil para emails.\par
 		\hfill\par
 \item \textit{Proteçã até primeira autenticação do utilizador:}
 		O ficheiro pode ser acedido mal o utilizador desbloqueie o dispositivo após liga-lo.\par
@@ -125,7 +125,7 @@ Para realizarmos o teste ao armazenamento local, de forma a verificarmos se cons
 \begin{enumerate}
 \item Acionar a funcionalidade da aplicação que guarda dados sensíveis, por exemplo fazer login na aplicação.
 
-\item navegar até á diretoria com os ficheiros sensíveis.
+\item navegar até à diretoria com os ficheiros sensíveis.
 \begin{lstlisting}
 /var/mobile/Containers/Data/Application/$APP_ID/
 \end{lstlisting}
@@ -166,7 +166,7 @@ Para realizar este teste basta usar um proxy para podermos intercetar o tráfico
 \end{itemize}
 
 
-   	O objetivo deste teste é procurar no código fonte da aplicação uma implementação semelhante á da figura para os UITextFields visados. Se estes não tiverem a configuração mostrada falham o teste.
+   	O objetivo deste teste é procurar no código fonte da aplicação uma implementação semelhante à da figura para os UITextFields visados. Se estes não tiverem a configuração mostrada falham o teste.
 
 \begin{figure}[H]
 \centering
@@ -177,7 +177,7 @@ Para realizar este teste basta usar um proxy para podermos intercetar o tráfico
 
 
 
-Para corigr este problema podemos programar uma solução para o UITextField alvo apicando o código: \textit{textObject.autocorrectionType = UITextAutocorrectionTypeNo} aos \textit{UITextFields}, \textit{UITextViews} e \textit{UISearchBars} que desejarmos. Para objetos que devem ser mascarados devemos definir o atributo \textit{textObject.secureTextEntry} como \textit{YES}.  Na imagem abaixo vemos um exemplo.
+Para corrigir este problema podemos programar uma solução para o UITextField alvo apicando o código: \textit{textObject.autocorrectionType = UITextAutocorrectionTypeNo} aos \textit{UITextFields}, \textit{UITextViews} e \textit{UISearchBars} que desejarmos. Para objetos que devem ser mascarados devemos definir o atributo \textit{textObject.secureTextEntry} como \textit{YES}.  Na imagem abaixo vemos um exemplo.
 	 
 \begin{figure}[H]
 \centering
@@ -188,7 +188,7 @@ Para corigr este problema podemos programar uma solução para o UITextField alv
 
 Para testar se a cache do teclado possui dados sensiveis que não deveriam ser guardados, basta:
 \begin{enumerate}
-	\item Fazer reset á cache do teclado.
+	\item Fazer reset à cache do teclado.
 	\item Entrar na aplicação e inserir, por exemplo, os dados de autenticação.
 	\item Sair da aplicação.
 	\item Reentrar na aplicação e começar a reinserir os dados. 
@@ -205,7 +205,7 @@ Para testar se a cache do teclado possui dados sensiveis que não deveriam ser g
 A inserção de informação sensível é necessária quando queremos por exemplo levantar dinheiro, fazer um pagamento entre outros. Ao utilizar aplicações que requerem esse tipo de dados sensíveis é imperativo que estes não sejam mostrados em texto limpo na interface após inseridos.\par
 \hfill\par
 Um campo que mascare o que nele é escrito pode ser verificado de duas formas.
-A primeira pode ser verificada navegando pelo código da aplicação até á configuração da caixa que recebe os dadso sensíveis e verificando se a opção \textit{Secure Text Entry} está ativa, se estiver ativa o texto inserido é substituido por pontos.
+A primeira pode ser verificada navegando pelo código da aplicação até à configuração da caixa que recebe os dadso sensíveis e verificando se a opção \textit{Secure Text Entry} está ativa, se estiver ativa o texto inserido é substituido por pontos.
 A segunda é em interação com a aplicação a testar inserir os dados sensiveis e verificar se os dados aparecem em texto limpo ou são mascarados.
 
 
@@ -298,7 +298,7 @@ O teste falha se:
 
 A Apple fornece uma API para gerar números aleatório criptográficamente seguros.
 
-Em Swift a chamada á API é feita com o seguinte código:
+Em Swift a chamada à API é feita com o seguinte código:
 
 \begin{lstlisting}[basicstyle=\small,]
     func SecRandomCopyBytes(_ rnd: SecRandomRef?,
@@ -335,7 +335,7 @@ Atacantes podem facilmente passar a autenticação local caso nada seja retornad
 \hfill\par
 
 
-Apesar de ser uma autenticação eficiente ao nivel do utilizador, esta é facilmente ultrapassável usando instrumentos de patching. Assim é melhor usar o método de serviço da keyChain, ou seja, verificar que processos sensíveissão protegidos com métodos de serviço da keyChain. ex: transações financeiras.\par
+Apesar de ser uma autenticação eficiente ao nivel do utilizador, esta é facilmente ultrapassável usando instrumentos de patching. Assim é melhor usar o método de serviço da keyChain, ou seja, verificar que processos sensíveis são protegidos com métodos de serviço da keyChain. ex: transações financeiras.\par
 
 Verificar as flags dos controlos de acesso da keyChain para assegurar que os dados só são acedidos pelo utilizador. Podem-se utilizar as seguintes flags: 
 
@@ -343,12 +343,12 @@ Verificar as flags dos controlos de acesso da keyChain para assegurar que os dad
 
 \item \textit{kSecAccessControlBiometryCurrentSet:}\par
 	\hfill\par
-	Esta flag obriga o utilizador a autenticar-se biometricamente antes de aceder á keyChain. Se for adicionado um novo dado biométrico, a entrada na keyChain vai ser invalidada e só poderá ser acedida pelos utilizadores autenticados quando os dados foram adicionados.\par
+	Esta flag obriga o utilizador a autenticar-se biometricamente antes de aceder à keyChain. Se for adicionado um novo dado biométrico, a entrada na keyChain vai ser invalidada e só poderá ser acedida pelos utilizadores autenticados quando os dados foram adicionados.\par
 	\hfill\par
 
 \item \textit{kSecAccessControlBiometryAny:}\par
 	\hfill\par
-	Esta flag obriga o utilizador a autenticar-se biometricamente antes de aceder á keyChain. Caso novos dados biométricos sejam adicionados a autenticação na keyChain mantem-se. Útil para utilizadores que mudam a própria impressão digital mas bom para atacantes também visto que se conseguirem registar a impresão digital conseguem aceder aos restantes dados biométricos.\par
+	Esta flag obriga o utilizador a autenticar-se biometricamente antes de aceder à keyChain. Caso novos dados biométricos sejam adicionados a autenticação na keyChain mantem-se. Útil para utilizadores que mudam a própria impressão digital mas bom para atacantes também visto que se conseguirem registar a impresão digital conseguem aceder aos restantes dados biométricos.\par
 	\hfill\par
 
 \item \textit{kSecAccessControlUserPresence:}\par
@@ -426,7 +426,7 @@ Em baixo apresentamos 3 formas de manter os certificados confiaveis por parte da
 \begin{enumerate}
 \item Incluir os certificados do servidor na diretoria da aplicação e verifica-lo a cada conecção. Isto requer um mecanismo de atualização do certificado para o caso do certificado mudar.\par
 \hfill\par
-\item Limitar os emissores de certificados, ex: uma CA envia á aplicação o certificado de um servidor. O certificado será seguro e limita ataques possíveis.\par
+\item Limitar os emissores de certificados, ex: uma CA envia à aplicação o certificado de um servidor. O certificado será seguro e limita ataques possíveis.\par
 \hfill\par
 \item A aplicação deve possuir a chave pública da CA confiavel pertencente ao dono da aplicação. Isto não requer atualizar a aplicação sempre que o servidor mudar de certificado. Usar uma CA própria faz com que o seu certificado seja auto assinado.
 \end{enumerate}
@@ -436,7 +436,7 @@ Para validarmos os certificados presentes na aplicação vamos usar o Burp para 
 \begin{enumerate}
 \item Temos de verificar se ferramentas como o SSL Kill Switch estão desativadas.\par
 \hfill\par
-\item Garantir que não há certificados a serem adicionados á diretoria da aplicação.\par
+\item Garantir que não há certificados a serem adicionados à diretoria da aplicação.\par
 \hfill\par
 \item Iniciar a aplicação, se conseguirmos ver o tráfico não é realizada nenhuma validação do certificado e a aplicação falhou o teste.\par
 \hfill\par
@@ -459,7 +459,7 @@ Se não conseguirmos ver o tráfico apesar do SSL handshake funcionar então tod
 
 Ao contráro do android  cada aplicação no iOS corre sobre o seu ID de utilizador, todas as aplicações de terçeiros correm sobre o non-privileged mobile user.
 
-Algumas permissões no entanto podem ser configuradas pelo desenvolvedor da aplicação e terão efeito mal a aplicação seja instalada. Este é o problema que trataremos nesta secção, aplicaçãos que pedem permissões por razões não obvias, pr exemplo um scanner de QRcodes deve ter acesso á câmara mas dificilmente necessitará de acesso ás fotografias.\par
+Algumas permissões no entanto podem ser configuradas pelo desenvolvedor da aplicação e terão efeito mal a aplicação seja instalada. Este é o problema que trataremos nesta secção, aplicaçãos que pedem permissões por razões não obvias, pr exemplo um scanner de QRcodes deve ter acesso à câmara mas dificilmente necessitará de acesso ás fotografias.\par
 \hfill\par
 
 Desde o iOS 10 existem areas que precisam de inspeção ás permissões:
@@ -533,7 +533,7 @@ Testar um link universal requer os seguintes passos:
 \item \textit{Verificar as permissões do dominio associado}\par
 \hfill\par
 	Links universais requerem que o desenvolvedor adicione as permissões dos dominios associados numa lista de dominios que a aplicação suporte.
-	Podemos usar o Xcode para verificar isto. Basta ir a \textit{Capabilities} e procurar por \textit{Associated Domains}. Em baixo mostra-se um exemplo com recurso á inspeção da aplicação Telegram.
+	Podemos usar o Xcode para verificar isto. Basta ir a \textit{Capabilities} e procurar por \textit{Associated Domains}. Em baixo mostra-se um exemplo com recurso à inspeção da aplicação Telegram.
 
 \begin{figure}[H]
 \centering
@@ -621,7 +621,7 @@ Testar um link universal requer os seguintes passos:
 		Aqui podemos observar que de facto o Telegram chama o método "aplicaçãolication:continueUserActivity:restorationHandler:" como esperado e que apenas trata o URL sem o abrir, chamando o \textit{TelegramUI.openExternalUrl} para isso.\par
 \hfill\par
 
-	Agora que confirmamos que o Telegram está a aplicar os métodos corretamente falta ver se temos dados sensíveis a serem trocados entre aplicações. Para isso, basta adicionar ao ficheiro stub o seguinte código: "log("userInfo:" + ObjC.Object(args[3]).userInfo().toString())". Este código  permite aceder á propriedade userInfo a partir do objeto continueUserInfo e como consequência imprime todos os dados trocados nos quais podemos verificar se existem ficheiros sensíveis.
+	Agora que confirmamos que o Telegram está a aplicar os métodos corretamente falta ver se temos dados sensíveis a serem trocados entre aplicações. Para isso, basta adicionar ao ficheiro stub o seguinte código: "log("userInfo:" + ObjC.Object(args[3]).userInfo().toString())". Este código  permite aceder à propriedade userInfo a partir do objeto continueUserInfo e como consequência imprime todos os dados trocados nos quais podemos verificar se existem ficheiros sensíveis.
 	Na imagem seguinte vemos que não há dados sensíveis a serem passados.
 	
 \begin{figure}[H]
