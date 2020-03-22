@@ -1,33 +1,13 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
 
-\usepackage{indentfirst}
-\usepackage[pdftex]{hyperref}
-\usepackage{natbib}
-\usepackage[portuguese]{babel}
-\usepackage{fontenc}
-\usepackage{amsmath}
-\usepackage{geometry,lipsum}
-\usepackage{array}
-\usepackage{wrapfig}
-\usepackage{multirow}
-\usepackage{tabularx}
-\usepackage{titlesec}
-\usepackage{amsmath,amsthm,amssymb,amsfonts}
-\usepackage{graphicx}
-\usepackage{subcaption}
-\usepackage{comment}
-\usepackage{framed, color}
-\definecolor{shadecolor}{rgb}{1,0.8,0.3}¹
+%\definecolor{shadecolor}{rgb}{1,0.8,0.3}¹
 
 %\title{Android}
 %\author{Ricardo Vaz - PG41097 }
 %\date{\today}
 
-\begin{document}
 %\maketitle
 
-\tableofcontents
+%\tableofcontents
 
 \newpage
 \section{Arquitetura de Segurança do Android}
@@ -123,9 +103,9 @@ A Amazon Appstore é a loja padrão confiável para dispositivos Kindle. Se os u
 
 As aplicações podem ser instaladas num dispositivo Android de várias fontes: localmente via USB, via loja de aplicativos oficial do Google (Google Play Store) ou em lojas alternativas.
 \\
-\begin{shaded}
-\par \textbf{Nota}: Enquanto outros fornecedores podem rever e aprovar aplicações antes de serem realmente publicadas, o Google simplesmente procura assinaturas de malware conhecidas, o que faz com que o tempo entre o início do processo de publicação e a disponibilidade da aplicação ao público seja minimizado.
-\end{shaded}
+
+\par \textit{Nota: Enquanto outros fornecedores podem rever e aprovar aplicações antes de serem realmente publicadas, o Google simplesmente procura assinaturas de malware conhecidas, o que faz com que o tempo entre o início do processo de publicação e a disponibilidade da aplicação ao público seja minimizado.}
+
 
 \newpage
 \section{Android Application Attack Surface}
@@ -324,7 +304,4 @@ Durante a implementação de uma aplicação móvel, os desenvolvedores podem us
 \par Mecanismos IPC do Android, como Binders, Services, Bound Services, AIDL (Android Interface Definition Language), Intents, ou Content Providers, são mecanismos que podem levar à exposição de dados confidenciais.
 
 
-
-
-\end{document}
 
