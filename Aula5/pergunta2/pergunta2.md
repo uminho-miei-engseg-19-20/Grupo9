@@ -1,4 +1,4 @@
-###Pergunta 2.1
+### Pergunta 2.1
 
 Em seguida apresenta-se os tempos de mineração sobre os 3 blocos com dificuldade 2,3,4 e 5 respetivamente.
 
@@ -31,7 +31,7 @@ Note-se que a dificuldade representa o número e 0 a aparecerem na hash antes de
 No entatnto apesar de parecer que nodos com maior poder computacional ganham a disputa na procura de nonces, nem sempre isto se verifica dado que depende da probabilidade de encontrar um nonce que cumpra os requisitos e não de o calcular.
 
 
-###Pergunta 2.2
+### Pergunta 2.2
 
 1.  
 
