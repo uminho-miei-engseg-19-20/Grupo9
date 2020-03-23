@@ -40,7 +40,7 @@ System File Key -> desencriptada com Hardware Key
 
 2.1 App ID -> número muito extenso que está mapeado numa tabela do nosso dispositivo para esconder qual a aplicação a que a pasta pertence.
 
-
+--------------------------------------------------------------------------------------------------------------
 
 
 
