@@ -111,5 +111,8 @@ Google Internet Services| 2.000.000.000    |10.000.000 - 100.000.000
 
 Não é possivel estimar o número de vulnerabilidades de um código, tendo por base o seu número de linhas ou o número de bugs estimado.
 
+#Pergunta 1.3
 
+#Pergunta 1.4
+Uma vulnerabilidade Zero-day é uma vulnerabilidade que é desconhecida ao público informático em geral mas do conhecimento de um grupo restrito já uma vulnerabilidade que não seja zero-day é conhecida pela comunidade informática e consequentemente estão listadas nas bases de dados públicas de CVEs.
 
