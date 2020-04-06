@@ -111,8 +111,28 @@ Google Internet Services| 2.000.000.000    |10.000.000 - 100.000.000
 
 Não é possivel estimar o número de vulnerabilidades de um código, tendo por base o seu número de linhas ou o número de bugs estimado.
 
-#Pergunta 1.3
+# Pergunta 1.3
 
-#Pergunta 1.4
+**Vulnerabilidades de Projecto**
+
+- **CWE-36: Absolute Path Traversal** -> Nesta vulnerabilidade, o software usa input externo para construir um caminho que deveria estar contido dentro de uma diretoria restrita, mas não limpa adequadamente sequências de caminho absolutas, como "/abs/path", o que permite que os atacantes possam percorrer o sistema de ficheiros para aceder a ficheiros ou diretórias que estão fora da diretória restrita. Para corrigir esta vulnerabilidade, deve-se sanitizar o input do utilizador.
+
+- **CWE-266: Incorrect Privilege Assignment** -> Nesta vulnerabilidade, cria-se uma esfera de controlo não intencional para um dado utilizador pois são-lhe atribuídas permissões incorretamente, ou seja, este utilizador poderá ter acesso a informações confidenciais e/ou funcionalidades restritas. Para corrigir esta vulnerabilidade, deveria ser feita uma análise rigorosa na fase do planeamento de todas as permissões atribuídas.
+
+
+**Vulnerabilidades de Codificação**
+
+- **CWE-128: Wrap-around Error** -> Nesta vulnerabilidade, os erros de quebra automática ocorrem sempre que um valor é incrementado para além do valor máximo para o seu tipo e, portanto, "envolve" um valor muito pequeno, negativo ou indefinido. Para corrigir esta vulnerabilidade, devem-se definir limites superiores e inferiores claros.
+
+- **CWE-370: Missing Check for Certificate Revocation after Initial Check** -> Nesta vulnerabilidade, quando o software não verifica o estado de revogação de um certificado após a verificação inicial, isto pode possibilitar que o software efetue operações com elevados privilégios utilizando o certificado mesmo depois de este ser revogado. Para corrigir esta vulnerabilidade, o estado de revogação do certificado deve ser verificado antes de efetuar qualquer operação.
+
+
+**Vulnerabilidade operacional**
+
+- **CWE-209: Information Exposure Through an Error Message** -> Nesta vulnerabilidade, quando o software gera mensagens de erro que incluem informação sensível sobre o ambiente de execução, utilizadores ou outras informações, esta mesma informação pode ser valiosa caso sejam passwords ou, então no caso, de poderem revelar informação que permita a um atacante efetuar um ataque mais focado. Para corrigir esta vulnerabilidade, deve-se revelar o mínimo de informação possível em mensagens de erro.
+
+- **CWE-555: J2EE Misconfiguration (Plaintext Password in Configuration File)** -> Nesta vulnerabilidade, a aplicação J2EE guarda a password num ficheiro de configuração. Para corrigir esta vulnerabilidade, devem ser utilizadas bibliotecas standard na cifragem de passwords antes destas serem guardadas em ficheiros de configuração.
+
+# Pergunta 1.4
 Uma vulnerabilidade Zero-day é uma vulnerabilidade que é desconhecida ao público informático em geral mas do conhecimento de um grupo restrito já uma vulnerabilidade que não seja zero-day é conhecida pela comunidade informática e consequentemente estão listadas nas bases de dados públicas de CVEs.
 
