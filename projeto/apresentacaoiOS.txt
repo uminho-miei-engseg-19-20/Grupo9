@@ -8,7 +8,7 @@ Cada dispositivo iOS tem 2 chaves AES de 256 bits, uma é o UserID e a outra o G
 
  Para correr uma aplicação no iOS, a aplicação, precisa um perfil de desenvolvedor e um certificado assinado pela Apple válidos.
 
- Jailbroke será útil para a utilização de diversos programas usados para monitorizar acessos aos ficheiros do sistema bem como aceder aos mesmos. 
+ Jailbroke será útil para a utilização de diversos programas usados para monitorar acessos aos ficheiros do sistema bem como aceder aos mesmos. 
 
 
 - App Store Data Protection
@@ -42,17 +42,43 @@ System File Key -> desencriptada com Hardware Key
 
 --------------------------------------------------------------------------------------------------------------
 
+Dados em cache podem dar a qualquer pessoa com o nosso dispositivo acesso a aplicações com dados ou informação sensível. Por exemplo a aplicação caixa direta. É possível fazer transferências por lá, logo não é boa ideia que alguém consiga entrar na nossa conta apenas roubando o nosso telemóvel e tendo as credencias em cache.
+
+
+Reset Cache -> definições: Geral :Redefinir: Redefinir dicionário do teclado
 
 
 
 
+-----------------------------------------------------------------------------------------------------------------
+Autenticação Local
+
+É importante lembrar que a framework de autenticação local é um processo baseado em eventos e portanto não deve ser o único método de autenticação visto que retorna boleanos em vez dos dados de autenticação.
+
+Devemos portanto verificar que processos sensíveis são protegidos com métodos de serviço da keyChain e nós temos 3 formas de guardar credenciais na keyChain, correspondentes ás 3 flags que vos vou apresentar em seguida.
 
 
+A primeira (kSecAccessControlBiometryCurrentSet) obriga o utilizador a autenticar-se biometricamente ao aceder á keyChain. Se for adicionado um novo dads biométrico, os dados de acesso á aplicação na keyChain vão ser invalidados para essa biometria até que quem a possua insira os dados de novo.
 
+Ex: eu tenho a minha impressão digital no dispositivo e as minhas aplicações permitem que em vez de inserir o username e password eu use a impressão digital para que a keyChain preencha por mim. Se o meu pai adicionar a impressão digital dele no meu dispositivo a impressão digital dele ainda que válida no dispositivo não lhe dá acesso ás credenciais pois não é a impressão digital correta e para passar a ser ele deve inserir as credenciais corretas pelo menos uma vez.
 
+A segunda (kSecAccessControlBiometryAny) também obriga o utilizador a autenticar-se biometricamente ao aceder á keyChain. A diferença é que se o meu pai adicionar a impressão digital ao dispositivo passa a ter acesso ás minhas credenciais. Bom para atacantes caso consigam adicionar a impressão digital deles ao dispositivo.
 
+A última (kSecAccessControlUserPresence) permite apenas autenticação por password em vez de biométrica caso esta não funcione. É mais facil de roubar por shoulder surfing.
 
+Estas três flags servem para categorizar o nível de segurança. E a verificação com estas flags retornam os dados do usuário ou nill.
 
+-----------------------------------------------------------------------------------------------------------
+
+Para testarmos se estas flags estão implementadas.
+
+Swizzler2 -> permitirá retornar true através do software Frida caso não sejam usados os métodos da keyChain.
+
+.......
+.....
+.....
+
+Se conseguirmos continuar a usar a app sem inserir a impressão digital, esta falha o teste. Se tivesse a primeira flag implementada 
 
 
 

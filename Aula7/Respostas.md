@@ -95,7 +95,21 @@ Nota: Foi confirmada pela pŕopria adobe - https://helpx.adobe.com/security/prod
 
 # Pergunta 1.2
 
+### 1.
+Estima-se que o número de bugs de um programa esteja entre 5 a 50 por cada 1000 linhas de código.  
+Assim na tabela abaixo poemos ver o número de linhas de código de cada programa e as correspondentes estimativas de bugs.
 
- 
+Sftware                 | Linhas de código | Nº de bugs
+ -----------------------|------------------|---------------------
+Facebook                | 62.000.000       |310.000 - 3.100.000
+Car Software            | 100.000.000      |500.000 - 5.000.000
+Linux 3.1               | 15.000.000       |75.000 - 750.000
+Google Internet Services| 2.000.000.000    |10.000.000 - 100.000.000
+
+
+### 2.
+
+Não é possivel estimar o número de vulnerabilidades de um código, tendo por base o seu número de linhas ou o número de bugs estimado.
+
 
 
