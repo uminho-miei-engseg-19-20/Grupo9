@@ -8,7 +8,7 @@
 
 2. Para explorar as vulnerabilidades identificadas na linha anterior, tipos de metacaracteres e função *system()*, podiam ser executados os seguintes comandos: 
 	* Tipos de metacaracteres - **./filetype nomeFicheiro; comandoAtacante** -> O qual poderia permitir ao atacante utilizar o programa para correr comandos não autorizados.
-  * Função *system()* - **./filetype "/etc/passwd"** -> O qual poderia permitir ao atacante obter acesso às *passwords* do sistema.
+  	* Função *system()* - **./filetype "/etc/passwd"** -> O qual poderia permitir ao atacante obter acesso às *passwords* do sistema.
      
 
 3. Caso o programa tivesse permissões setuid root todo o sistema ficaria comprometido, pois, isto significaria que qualquer utilizador executaria o programa como se fossem root. Ou seja, executar programas malignos ou visualizar apagar ou encriptar qualquer ficheiro passaria a ser possível, comprometendo desta forma a integridade, confidencialidade e disponibilidade do sistema.
