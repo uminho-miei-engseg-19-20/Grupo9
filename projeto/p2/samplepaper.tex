@@ -30,18 +30,19 @@
                                       {0.0001pt \@plus .2ex}%
                                       {\normalfont\normalsize\bfseries}}
  
-\counterwithin{paragraph}{subsubsection}
-\counterwithin{subparagraph}{paragraph}
+
+
 \makeatother
 
 \begin{document}
 \input{title.tex}
 
-\newpage
-\hfill
+\include{intro}
 % Aqui começam os capitulos abordados pelo trabalho
-\section{OWASP ZAP}
 
+% CODE PULSE
+\include{pulse}
+% ZAP
 \include{zapLayout}
 \include{prep}
 \include{analise}
