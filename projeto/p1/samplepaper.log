@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2019.10.15)  26 MAR 2020 00:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.10.15)  11 MAY 2020 19:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -146,10 +146,10 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: xetex.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
-File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen125
 \Gin@req@width=\dimen126
@@ -168,8 +168,7 @@ File: babel.def 2018/02/14 3.18 Babel common definitions
 \babel@savecnt=\count116
 \U@D=\dimen127
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/xebabel.def
-(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@dirlevel=\count117
 )
 Package babel Info: Making " an active character on input line 145.
@@ -180,11 +179,6 @@ Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-)
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 105.
-
-(/usr/share/texmf/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
@@ -291,56 +285,124 @@ LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
 LaTeX Font Info:    ... okay on input line 38.
-\c@lstlisting=\count127
- (./title.tex
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count127
+\scratchdimen=\dimen132
+\scratchbox=\box58
+\nofMPsegments=\count128
+\nofMParguments=\count129
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count130
+\MPscratchDim=\dimen133
+\MPnumerator=\count131
+\makeMPintoPDFobject=\count132
+\everyMPtoPDFconversion=\toks25
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count133
+
+(./title.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 16.
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 21.
- (/usr/share/texmf/tex/latex/lm/omslmr.fd
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 21.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 21.
-
-
-(/usr/share/texmf/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 21.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 21.
 ) [1
 
-] (./Geral.tex [2] [3] [4]
-[5]
-File: ./images/SDLC.png Graphic file (type bmp)
-<./images/SDLC.png>
-
-Underfull \vbox (badness 1490) has occurred while \output is active []
-
- [6]
-[7]
-Overfull \hbox (4.26328pt too wide) in paragraph at lines 171--175
-\T1/lmr/m/n/10 de de-sen-vol-vi-mento. A com-mit phase nor-mal-mel-mente in-vol
-ve com-pi-ler checks
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Geral.tex
+Overfull \hbox (4.60028pt too wide) in paragraph at lines 20--21
+\T1/cmr/m/n/10 nhe-ci-mento dis-po-ni-bi-li-zado ao tes-ter, sendo um com-pro-m
+isso en-tre o tempo,da
  []
 
-[8] [9] [10] [11]
-Overfull \hbox (9.31859pt too wide) in paragraph at lines 331--332
-[]\T1/lmr/m/n/10 É im-por-tante que os To-kens te-nham uma ex-pi-ra-tion date o
-u ainda implementar-
+[2] [3] [4] [5]
+<./images/SDLC.png, id=25, 769.87625pt x 321.2pt>
+File: ./images/SDLC.png Graphic file (type png)
+<use ./images/SDLC.png>
+Package pdftex.def Info: ./images/SDLC.png  used on input line 135.
+(pdftex.def)             Requested size: 347.12354pt x 144.82782pt.
+ [6 <./images/SDLC.png>] [7]
+Underfull \vbox (badness 1152) has occurred while \output is active []
+
+ [8]
+[9] [10] [11]
+Overfull \hbox (16.1792pt too wide) in paragraph at lines 331--332
+[]\T1/cmr/m/n/10 É im-por-tante que os To-kens te-nham uma ex-pi-ra-tion date 
+ou ainda implementar-
  []
 
 [12] [13] [14]) (./Android.tex [15]
-File: ./images/arquiteturaAndroid.png Graphic file (type bmp)
-<./images/arquiteturaAndroid.png>
- [16]
+<./images/arquiteturaAndroid.png, id=60, 413.545pt x 612.2875pt>
+File: ./images/arquiteturaAndroid.png Graphic file (type png)
+<use ./images/arquiteturaAndroid.png>
+Package pdftex.def Info: ./images/arquiteturaAndroid.png  used on input line 21
+.
+(pdftex.def)             Requested size: 248.1289pt x 367.37534pt.
+ [16 <./images/arquiteturaAndroid.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 35--37
 
  []
@@ -361,9 +423,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--49
  []
 
 [18]
-Overfull \hbox (0.73727pt too wide) in paragraph at lines 92--94
-\T1/lmr/m/n/10 Depois de uma apli-ca-ção ser de-sen-vol-vida com su-cesso, o pr
-ó-ximo passo é publicá-
+Overfull \hbox (3.7128pt too wide) in paragraph at lines 79--81
+\T1/cmr/m/n/10 au-to-ma-ti-ca-mente. Exem-plo: \T1/cmr/m/it/10 an-droid.permiss
+ion.ACCESS_MOCK_LOCATION 
  []
 
 [19]
@@ -372,8 +434,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--111
  []
 
 [20]
-Overfull \hbox (8.14206pt too wide) in paragraph at lines 138--138
- \T1/lmr/bx/n/10 15.1.1 Tes-tar o ar-ma-ze-na-mento lo-cal para da-dos con-fi-d
+Overfull \hbox (8.05779pt too wide) in paragraph at lines 138--138
+ \T1/cmr/bx/n/10 15.1.1 Tes-tar o ar-ma-ze-na-mento lo-cal para da-dos con-fi-d
 en-ci-ais (MSTG-
  []
 
@@ -423,51 +485,62 @@ Underfull \hbox (badness 10000) in paragraph at lines 183--185
  []
 
 
-Overfull \hbox (3.4766pt too wide) in paragraph at lines 191--191
- \T1/lmr/bx/n/10 15.1.2 De-ter-mi-nar se da-dos sen-sí-veis são en-vi-a-dos a t
-er-cei-ros (MSTG-
- []
-
-
-Overfull \hbox (18.37436pt too wide) in paragraph at lines 198--198
- \T1/lmr/bx/n/10 15.1.3 Pro-cu-rar da-dos sen-sí-veis na ca-che do te-clado (MS
-TG-STORAGE-
+Overfull \hbox (29.85246pt too wide) in paragraph at lines 198--198
+ \T1/cmr/bx/n/10 15.1.3 Pro-cu-rar da-dos sen-sí-veis na ca-che do te-clado (M
+STG-STORAGE-
  []
 
 [23]
-Overfull \hbox (1.4303pt too wide) in paragraph at lines 218--219
-[]\T1/lmr/m/n/10 A mai-o-ria das in-ter-fa-ces e clas-ses JCA são de-fi-ni-das 
-nos pa-co-tes java.security.*
+Overfull \hbox (7.54819pt too wide) in paragraph at lines 215--215
+\T1/cmr/bx/n/10 grá-fi-cos (MSTG-CRYPTO-2, MSTG-CRYPTO-3 e MSTG-CRYPTO-
  []
 
 
-Overfull \hbox (1.94952pt too wide) in paragraph at lines 225--225
- \T1/lmr/bx/n/10 15.2.2 Teste do ma-nu-ten-ção de cha-ves (MSTG-STORAGE-1, MSTG
--
+Overfull \hbox (8.01343pt too wide) in paragraph at lines 218--219
+[]\T1/cmr/m/n/10 A mai-o-ria das in-ter-fa-ces e clas-ses JCA são de-fi-ni-das
+ nos pa-co-tes java.security.*
+ []
+
+
+Overfull \hbox (19.08842pt too wide) in paragraph at lines 225--225
+ \T1/cmr/bx/n/10 15.2.2 Teste do ma-nu-te-nção de cha-ves (MSTG-STORAGE-1, MS
+TG-
  []
 
 [24]
-Overfull \hbox (38.15457pt too wide) in paragraph at lines 267--267
- \T1/lmr/bx/n/10 15.4.1 Tes-tar a ve-ri-fi-ca-ção de iden-ti-fi-ca-ção de ter-m
-i-nal (MSTG-NETWORK-
- []
-
-[25] [26]
-Overfull \hbox (29.73508pt too wide) in paragraph at lines 309--310
-\T1/lmr/m/n/10 com risco mí-nimo para ou-tras apli-ca-ções. Exem-plo: an-droid.
-permission.INTERNET 
+Overfull \hbox (14.22433pt too wide) in paragraph at lines 235--235
+ \T1/cmr/bx/n/10 15.2.3 Tes-tar a ge-ração de nú-me-ros ale-a-tó-rios (MSTG
+-CRYPTO-
  []
 
 
-Overfull \hbox (23.40282pt too wide) in paragraph at lines 314--316
-\T1/lmr/m/n/10 cla-rou a per-mis-são. Exem-plo: an-droid.permission.ACCESS_MOCK
-_LOCATION 
+Overfull \hbox (14.24933pt too wide) in paragraph at lines 253--253
+ \T1/cmr/bx/n/10 15.3.1 Tes-tar cre-den-ci-ais de con-fir-mação (MSTG-AUTH-1 
+e MSTG-
+ []
+
+
+Overfull \hbox (6.29155pt too wide) in paragraph at lines 267--267
+ \T1/cmr/bx/n/10 15.4.1 Tes-tar a ve-ri-fi-cação de iden-ti-fi-cação de ter
+-mi-nal (MSTG-
+ []
+
+[25]
+Overfull \hbox (0.68298pt too wide) in paragraph at lines 302--303
+[]\T1/cmr/m/n/10 O An-droid atri-bui uma iden-ti-dade dis-tinta do sis-tema a t
+o-dos as apli-cações
+ []
+
+[26]
+Overfull \hbox (98.85504pt too wide) in paragraph at lines 314--316
+\T1/cmr/m/n/10 cação que de-cla-rou a per-mis-são. Exem-plo: an-droid.permis
+sion.ACCESS_MOCK_LOCATION 
  []
 
 ) (./iOS.tex [27]
-Overfull \hbox (1.76465pt too wide) in paragraph at lines 8--8
-[]\T1/lmr/m/n/10 Apps no iOS es-tão iso-la-das umas das ou-tras atra-vés de uma
- sand-box(Seatbelt)
+Overfull \hbox (15.70709pt too wide) in paragraph at lines 8--8
+[]\T1/cmr/m/n/10 Apps no iOS es-tão iso-la-das umas das ou-tras atra-vés de u
+ma sand-box(Seatbelt)
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -475,171 +548,274 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 19.
 [28] [29]
-Overfull \hbox (20.89775pt too wide) in paragraph at lines 90--90
- \T1/lmr/bx/n/10 18.1.1 Tes-tar o Ar-ma-ze-na-mento Lo-cal (MSTG-STORAGE-1 and 
+Overfull \hbox (20.80884pt too wide) in paragraph at lines 90--90
+ \T1/cmr/bx/n/10 18.1.1 Tes-tar o Ar-ma-ze-na-mento Lo-cal (MSTG-STORAGE-1 and 
 MSTG-
  []
 
-File: ./images/image17.png Graphic file (type bmp)
-<./images/image17.png>
-[30]
-Overfull \hbox (18.37436pt too wide) in paragraph at lines 156--156
- \T1/lmr/bx/n/10 18.1.3 Pro-cu-rar da-dos sen-sí-veis na ca-che do te-clado (MS
-TG-STORAGE-
+<./images/image17.png, id=113, 630.355pt x 215.80624pt>
+File: ./images/image17.png Graphic file (type png)
+<use ./images/image17.png>
+Package pdftex.def Info: ./images/image17.png  used on input line 98.
+(pdftex.def)             Requested size: 347.12354pt x 118.83868pt.
+[30 <./images/image17.png>]
+Overfull \hbox (29.85246pt too wide) in paragraph at lines 156--156
+ \T1/cmr/bx/n/10 18.1.3 Pro-cu-rar da-dos sen-sí-veis na ca-che do te-clado (M
+STG-STORAGE-
  []
 
-File: ./images/image26.png Graphic file (type bmp)
-<./images/image26.png>
+<./images/image26.png, id=118, 644.4075pt x 73.27374pt>
+File: ./images/image26.png Graphic file (type png)
+<use ./images/image26.png>
+Package pdftex.def Info: ./images/image26.png  used on input line 177.
+(pdftex.def)             Requested size: 347.12354pt x 39.47218pt.
 [31]
-File: ./images/image27.png Graphic file (type bmp)
-<./images/image27.png>
- [32]
-File: ./images/image38.png Graphic file (type bmp)
-<./images/image38.png>
-File: ./images/image39.png Graphic file (type bmp)
-<./images/image39.png>
-File: ./images/image40.png Graphic file (type bmp)
-<./images/image40.png>
+<./images/image27.png, id=124, 635.37375pt x 69.25874pt>
+File: ./images/image27.png Graphic file (type png)
+<use ./images/image27.png>
+Package pdftex.def Info: ./images/image27.png  used on input line 188.
+(pdftex.def)             Requested size: 347.12354pt x 37.83878pt.
+ [32 <./images/image26.png> <./images/image27.png>]
+<./images/image38.png, id=130, 642.4pt x 138.5175pt>
+File: ./images/image38.png Graphic file (type png)
+<use ./images/image38.png>
+Package pdftex.def Info: ./images/image38.png  used on input line 231.
+(pdftex.def)             Requested size: 347.12354pt x 74.85117pt.
+<./images/image39.png, id=131, 642.4pt x 117.43875pt>
+File: ./images/image39.png Graphic file (type png)
+<use ./images/image39.png>
+Package pdftex.def Info: ./images/image39.png  used on input line 240.
+(pdftex.def)             Requested size: 347.12354pt x 63.46077pt.
+<./images/image40.png, id=132, 643.40375pt x 135.50626pt>
+File: ./images/image40.png Graphic file (type png)
+<use ./images/image40.png>
+Package pdftex.def Info: ./images/image40.png  used on input line 248.
+(pdftex.def)             Requested size: 347.12354pt x 73.10817pt.
+ [33 <./images/image38.png> <./images/image39.png>]
+<./images/image41.png, id=138, 656.4525pt x 204.765pt>
+File: ./images/image41.png Graphic file (type png)
+<use ./images/image41.png>
+Package pdftex.def Info: ./images/image41.png  used on input line 258.
+(pdftex.def)             Requested size: 347.12354pt x 108.27809pt.
+ [34 <./images/image40.png> <./images/image41.png>]
+Overfull \hbox (12.94548pt too wide) in paragraph at lines 300--300
+ \T1/cmr/bx/n/10 18.2.3 Tes-tar Ge-ração Ale-a-tó-ria de Nú-me-ros (MSTG- C
+RYPTO-
+ []
 
-Underfull \vbox (badness 1024) has occurred while \output is active []
 
- [33]
-File: ./images/image41.png Graphic file (type bmp)
-<./images/image41.png>
-
-[34]
-Overfull \hbox (30.27563pt too wide) in paragraph at lines 310--311
+Overfull \hbox (30.18744pt too wide) in paragraph at lines 310--311
 [][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (52.47559pt too wide) in paragraph at lines 316--317
+Overfull \hbox (52.3822pt too wide) in paragraph at lines 316--317
 [][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (41.37561pt too wide) in paragraph at lines 320--321
+Overfull \hbox (41.28482pt too wide) in paragraph at lines 320--321
 [][][][][][][][][][][][][][][][][][] 
  []
 
-
-Overfull \hbox (33.93211pt too wide) in paragraph at lines 336--336
- \T1/lmr/bx/n/10 18.3.1 Tes-tar Au-ten-ti-ca-ção Lo-cal (MSTG-AUTH-8 and MSTG-S
-TORAGE-
- []
-
 [35] [36]
-File: ./images/image42.png Graphic file (type bmp)
-<./images/image42.png>
- [37] [38]
-File: ./images/image45.png Graphic file (type bmp)
-<./images/image45.png>
- [39]
-File: ./images/image46.png Graphic file (type bmp)
-<./images/image46.png>
-File: ./images/image47.png Graphic file (type bmp)
-<./images/image47.png>
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [40]
-File: ./images/image48.png Graphic file (type bmp)
-<./images/image48.png>
-
-[41]
-File: ./images/image49.png Graphic file (type bmp)
-<./images/image49.png>
-File: ./images/image50.png Graphic file (type bmp)
-<./images/image50.png>
-
-Underfull \vbox (badness 4341) has occurred while \output is active []
-
- [42]
-Overfull \hbox (52.06274pt too wide) in paragraph at lines 569--569
-[]\T1/lmr/m/n/10 Adicionalmente, quando a apli-ca-ção usar o mé-todo \T1/lmr/m/
-it/10 ope-nURL:options:completionHandler:
+Overfull \hbox (6.13187pt too wide) in paragraph at lines 392--392
+ \T1/cmr/bx/n/10 18.4.1 Se-gu-ra-nça da Ca-mada de Tras-porte da Apli-cação 
+(MSTG-
  []
 
-File: ./images/image51.png Graphic file (type bmp)
-<./images/image51.png>
+<./images/image42.png, id=151, 639.38875pt x 132.495pt>
+File: ./images/image42.png Graphic file (type png)
+<use ./images/image42.png>
+Package pdftex.def Info: ./images/image42.png  used on input line 403.
+(pdftex.def)             Requested size: 347.12354pt x 71.93236pt.
+[37] [38 <./images/image42.png>] [39]
+<./images/image45.png, id=163, 359.3425pt x 253.94875pt>
+File: ./images/image45.png Graphic file (type png)
+<use ./images/image45.png>
+Package pdftex.def Info: ./images/image45.png  used on input line 477.
+(pdftex.def)             Requested size: 173.56177pt x 122.66124pt.
+<./images/image46.png, id=164, 613.29124pt x 107.40125pt>
+File: ./images/image46.png Graphic file (type png)
+<use ./images/image46.png>
+Package pdftex.def Info: ./images/image46.png  used on input line 484.
+(pdftex.def)             Requested size: 347.12354pt x 60.78996pt.
+<./images/image47.png, id=165, 648.4225pt x 279.0425pt>
+File: ./images/image47.png Graphic file (type png)
+<use ./images/image47.png>
+Package pdftex.def Info: ./images/image47.png  used on input line 497.
+(pdftex.def)             Requested size: 347.12354pt x 149.38205pt.
+ [40 <./images/image45.png> <./images/image46.png>]
+<./images/image48.png, id=171, 642.4pt x 229.85875pt>
+File: ./images/image48.png Graphic file (type png)
+<use ./images/image48.png>
+Package pdftex.def Info: ./images/image48.png  used on input line 509.
+(pdftex.def)             Requested size: 347.12354pt x 124.20955pt.
+ [41 <./images/image47.png> <./images/image48.png>]
+<./images/image49.png, id=177, 647.41875pt x 132.495pt>
+File: ./images/image49.png Graphic file (type png)
+<use ./images/image49.png>
+Package pdftex.def Info: ./images/image49.png  used on input line 544.
+(pdftex.def)             Requested size: 347.12354pt x 71.03877pt.
 
-Underfull \vbox (badness 2735) has occurred while \output is active []
+Overfull \hbox (1.81712pt too wide) in paragraph at lines 552--553
+\T1/cmr/m/it/10 https://<domain>/.well-known/aplicaçãole-aplicação-site-ass
+osiation\T1/cmr/m/n/10 . 
+ []
 
- [43]
-Overfull \hbox (19.5257pt too wide) in paragraph at lines 601--602
+<./images/image50.png, id=178, 631.35875pt x 230.8625pt>
+File: ./images/image50.png Graphic file (type png)
+<use ./images/image50.png>
+Package pdftex.def Info: ./images/image50.png  used on input line 558.
+(pdftex.def)             Requested size: 347.12354pt x 126.92896pt.
+[42 <./images/image49.png>]
+Overfull \hbox (9.94846pt too wide) in paragraph at lines 567--567
+\T1/cmr/m/n/10 ple-men-tar a \T1/cmr/m/it/10 apli-cação-li-ca-tion:continueUs
+erActivity:restorationHandler:\T1/cmr/m/n/10 . De-
+ []
+
+
+Overfull \hbox (73.7721pt too wide) in paragraph at lines 569--569
+[]\T1/cmr/m/n/10 Adicionalmente, quando a apli-cação usar o mé-todo \T1/cmr/
+m/it/10 ope-nURL:options:completionHandler:
+ []
+
+<./images/image51.png, id=183, 642.4pt x 155.58125pt>
+File: ./images/image51.png Graphic file (type png)
+<use ./images/image51.png>
+Package pdftex.def Info: ./images/image51.png  used on input line 590.
+(pdftex.def)             Requested size: 347.12354pt x 84.07196pt.
+[43 <./images/image50.png>]
+Overfull \hbox (19.44398pt too wide) in paragraph at lines 601--602
 [][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (19.5257pt too wide) in paragraph at lines 602--603
+Overfull \hbox (19.44398pt too wide) in paragraph at lines 602--603
 [][][][] 
  []
 
 
-Overfull \hbox (19.5257pt too wide) in paragraph at lines 603--604
+Overfull \hbox (19.44398pt too wide) in paragraph at lines 603--604
 [][][][] 
  []
 
-File: ./images/image52.png Graphic file (type bmp)
-<./images/image52.png>
+<./images/image52.png, id=189, 648.4225pt x 363.3575pt>
+File: ./images/image52.png Graphic file (type png)
+<use ./images/image52.png>
+Package pdftex.def Info: ./images/image52.png  used on input line 613.
+(pdftex.def)             Requested size: 347.12354pt x 194.51907pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44]
-File: ./images/image53.png Graphic file (type bmp)
-<./images/image53.png>
+ [44 <./images/image51.png>]
+<./images/image53.png, id=194, 645.41125pt x 473.77pt>
+File: ./images/image53.png Graphic file (type png)
+<use ./images/image53.png>
+Package pdftex.def Info: ./images/image53.png  used on input line 620.
+(pdftex.def)             Requested size: 347.12354pt x 254.80545pt.
+
+Overfull \hbox (4.2824pt too wide) in paragraph at lines 625--625
+\T1/cmr/m/n/10 que ape-nas trata o URL sem o abrir, cha-mando o \T1/cmr/m/it/10
+ Te-le-gra-mUI.openExternalUrl
+ []
+
 
 Underfull \vbox (badness 1960) has occurred while \output is active []
 
- [45]
-File: ./images/image54.png Graphic file (type bmp)
-<./images/image54.png>
-
-[46]
-File: ./images/image55.png Graphic file (type bmp)
-<./images/image55.png>
-
-Overfull \hbox (9.27652pt too wide) in paragraph at lines 687--687
-[]\T1/lmr/m/it/10 JSContext: \T1/lmr/m/n/10 Quando é atri-buido um iden-ti-fi-c
-a-dor a um bloco Swift ou Objective-
+ [45 <./images/image52.png> <./images/image53.png>]
+Overfull \hbox (3.37836pt too wide) in paragraph at lines 628--630
+\T1/cmr/m/n/10 "log("userInfo:"+ ObjC.Object(args[3]).userInfo().toString())". 
+Este có-digo
  []
 
-[47]
-Overfull \hbox (80.22552pt too wide) in paragraph at lines 698--699
+<./images/image54.png, id=200, 648.4225pt x 218.8175pt>
+File: ./images/image54.png Graphic file (type png)
+<use ./images/image54.png>
+Package pdftex.def Info: ./images/image54.png  used on input line 633.
+(pdftex.def)             Requested size: 347.12354pt x 117.14133pt.
+[46 <./images/image54.png>]
+<./images/image55.png, id=205, 693.59125pt x 255.95625pt>
+File: ./images/image55.png Graphic file (type png)
+<use ./images/image55.png>
+Package pdftex.def Info: ./images/image55.png  used on input line 671.
+(pdftex.def)             Requested size: 347.12354pt x 128.10278pt.
+ [47 <./images/image55.png>]
+Overfull \hbox (80.12566pt too wide) in paragraph at lines 698--699
 [][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (63.57556pt too wide) in paragraph at lines 724--725
+Overfull \hbox (63.47958pt too wide) in paragraph at lines 724--725
 [][][][][][][][][][][][][][] 
  []
 
-File: ./images/image56.png Graphic file (type bmp)
-<./images/image56.png>
-[48])
+<./images/image56.png, id=210, 370.38374pt x 264.99pt>
+File: ./images/image56.png Graphic file (type png)
+<use ./images/image56.png>
+Package pdftex.def Info: ./images/image56.png  used on input line 730.
+(pdftex.def)             Requested size: 173.56177pt x 124.17331pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48]
+Overfull \hbox (2.51697pt too wide) in paragraph at lines 747--747
+[]\T1/cmr/m/n/10 Para tes-tar o me-ca-nismo de-ve-mos ten-tar ins-ta-lar uma ve
+r-são da apli-cação
+ []
+
+
+Overfull \hbox (0.60077pt too wide) in paragraph at lines 749--750
+[]\T1/cmr/m/n/10 Se to-das as ten-ta-ti-vas para ex-plo-rar a vul-ne-ra-bi-li-d
+ade fa-lha-rem a apli-cação
+ []
+
+)
 Underfull \hbox (badness 10000) in paragraph at lines 68--69
-[]\T1/lmr/m/n/9 https://mobile-security.gitbook.io/mobile-security-testing-guid
+[]\T1/cmr/m/n/9 https://mobile-security.gitbook.io/mobile-security-testing-guid
 e/ios-testing-
  []
 
-
-Overfull \hbox (4.93077pt too wide) in paragraph at lines 75--76
-[]\T1/lmr/m/n/9 https://cheatsheetseries.owasp.org/cheatsheets/Authentication_C
+[49 <./images/image56.png>]
+Overfull \hbox (5.62167pt too wide) in paragraph at lines 75--76
+[]\T1/cmr/m/n/9 https://cheatsheetseries.owasp.org/cheatsheets/Authentication_C
 heat_Sheet.html 
  []
 
-[49] (./samplepaper.aux)
+[50] (./samplepaper.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3286 strings out of 494944
- 44452 string characters out of 6176812
- 121640 words of memory out of 5000000
- 7081 multiletter control sequences out of 15000+600000
- 54534 words of font info for 37 fonts, out of 8000000 for 9000
- 16 hyphenation exceptions out of 8191
- 28i,9n,32p,1063b,967s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 4057 strings out of 494830
+ 56505 string characters out of 6178378
+ 128812 words of memory out of 5000000
+ 7294 multiletter control sequences out of 15000+600000
+ 16779 words of font info for 35 fonts, out of 8000000 for 9000
+ 61 hyphenation exceptions out of 8191
+ 41i,9n,32p,1077b,967s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/apocas/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbi1000.60
+0pk> </home/apocas/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti0900.
+600pk> </home/apocas/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm060
+0.600pk> </home/apocas/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0
+700.600pk> </home/apocas/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ect
+i1000.600pk> </home/apocas/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/e
+crm2488.600pk> </home/apocas/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec
+/ecbx2488.600pk> </home/apocas/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/
+ec/ecbx1200.600pk> </home/apocas/.texlive2017/texmf-var/fonts/pk/ljfour/jknappe
+n/ec/ecrm1000.600pk> </home/apocas/.texlive2017/texmf-var/fonts/pk/ljfour/jknap
+pen/ec/ecbx1000.600pk> </home/apocas/.texlive2017/texmf-var/fonts/pk/ljfour/jkn
+appen/ec/ecbx0900.600pk> </home/apocas/.texlive2017/texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecrm0900.600pk> </home/apocas/.texlive2017/texmf-var/fonts/pk/ljfour
+/jknappen/ec/ecbx1440.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy9.pfb>
+Output written on samplepaper.pdf (50 pages, 926475 bytes).
+PDF statistics:
+ 781 PDF objects out of 1000 (max. 8388607)
+ 175 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on samplepaper.pdf (49 pages).
