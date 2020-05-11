@@ -15,3 +15,5 @@
 
 
 ### Pergunta 1.2
+
+Resolução da pergunta 1.2 encontra-se em [aula11.py](https://github.com/uminho-miei-engseg-19-20/Grupo9/blob/master/Aula11/aula11.py).
