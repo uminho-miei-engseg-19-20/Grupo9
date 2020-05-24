@@ -75,3 +75,12 @@ Passos seguidos para a reallização da pergunta por ordem de execução:
 
 #P4
 
+5) Se colocarmos o script <script>alert("XML")</script> na primeira caixa de texto este aparece, no entanto na segunda esta vulnerabilidade não existe visto que a versão do jquery nesta já previne esta falha.
+
+12) Ao analisar o código fonte da lição conseguimos identificar uma vulnerabilidade. Esta é: o input é desserializado antes de a exceção ser lançada e caso haja um inteiro a função retorna com sucesso. A parte responsavel pela falha é trascrita em seguida:  
+```if(ex.getMessage().contains("Integer")){ ```  
+```    return success(this).feedback("vulnerable-components.success").build();```    
+```} ```  
+
+Para explorar esta vulnerabilidade basta executarmos o seguinte código:  
+```<java.lang.Integer>1</java.lang.Integer> ```
